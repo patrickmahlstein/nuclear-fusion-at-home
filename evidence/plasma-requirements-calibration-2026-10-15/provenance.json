@@ -1,0 +1,20 @@
+{
+  "producer_base": "ed72af9ad4e19633ca280f8bb364893f8822fc87",
+  "initial_preregistration": "64ac4f2",
+  "schema_clarification": "d516c1e",
+  "dataset_revision": "8da71572eb63ce93e77ce89bec0d7c30b7eba89e",
+  "upstream_source_revision": "d083b75b79386e95a3490a75b1498ad0958d9da8",
+  "upstream_source_sha256": {
+    "problems.py": "08a238aaf10bc76fc3541e5d9c03c5ab129895bc4a003156560b7cc25c961c73",
+    "forward_model.py": "08425c88b3a6b9e5512026e8e63c43f9f7ab2c9f5efef38f49891171985ed9bb"
+  },
+  "report_sha256": "31c519c9fa166d0dc2e776a15f22389f292eb1786018229a659f2479e293fb96",
+  "range_bytes": 21510090,
+  "limitations": [
+    "Projected ranges verified individually; published whole-shard LFS hashes recorded but not independently verified.",
+    "Dataset producer revision and fidelity are not established by the inspected source revision.",
+    "Stored-label calibration conditional on issue112 scorer controls; no native equilibria generated.",
+    "Original acquisition helpers had separate 20MiB guards for column ranges and metadata, so combined cached inputs exceeded that helper guard (20.51MiB), but remained below preregistered128MiB input-transfer cap. Generated nonrange outputs remained below20MiB.",
+    "Independent arithmetic shares the data reader and PyArrow with primary analysis; not external peer review."
+  ]
+}

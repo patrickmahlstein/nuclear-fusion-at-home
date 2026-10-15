@@ -1,0 +1,46 @@
+{
+  "total": 182222,
+  "selected": 12366,
+  "marginals": {
+    "vacuum_well": {
+      "valid": 12366,
+      "pass": 524
+    },
+    "flux_compression_in_regions_of_bad_curvature": {
+      "valid": 12366,
+      "pass": 1333
+    },
+    "qi": {
+      "valid": 12366,
+      "pass": 0
+    },
+    "edge_rotational_transform_over_n_field_periods": {
+      "valid": 12366,
+      "pass": 3555
+    },
+    "edge_magnetic_mirror_ratio": {
+      "valid": 12366,
+      "pass": 4443
+    }
+  },
+  "metric_only_joint": 0,
+  "joint": 0,
+  "selected_qi": {
+    "valid": 12366,
+    "minimum": [
+      0.00020216407388192752,
+      "D8zMAk6C3MT5wJYPMmeYEZe"
+    ],
+    "pass_le_1e_4": 0
+  },
+  "global_qi": {
+    "valid": 158685,
+    "minimum": [
+      6.146820028575814e-05,
+      "Do3QyJbtRhtGhrTiBSBbyKM"
+    ],
+    "pass_le_1e_4": 9
+  },
+  "negative_signed_transform": 203,
+  "script_sha256": "bdf4fa37593f192b94e494ab6b57e54914e9deb09a998de0c18ccfeb9baa2249"
+}
