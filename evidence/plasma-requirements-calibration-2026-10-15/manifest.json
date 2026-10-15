@@ -1,10 +1,14 @@
 {
+  "COOCCURRENCE.md": "ae75e8c9b2bc2b45fa1d9538a716ae7ec524b32594f88faea9f4ec6ea9abc8fb",
   "provenance.json": "3fce689c0fc1647a8280666c2155b6c6ac5ccfbc559cbe81caa42b0c83cad080",
   "calibration.json": "31c519c9fa166d0dc2e776a15f22389f292eb1786018229a659f2479e293fb96",
   "fetch_ranges.py": "c05d66566a9204fc9dfcb564e11e5b046190f14106c9bcc97065eaf2b6d781b1",
   "range-plan.json": "feace3031e6853e7a4e9ca965a1ad9382b4aec3e50036342dd12e86041d130ca",
+  "cooccurrence.json": "32339ebc20ce418af591d05d98d6e0a676dde500c1b6b90fa788b70bb6b82c0b",
   "ranges.json": "15c98aade58e3e0d34b55a1d36b0f7733a0c4fbef5b81293858688bf97cbc403",
+  "cooccurrence-protocol.md": "f58794f7d4f73c18904e69d1212738adf6d9c2cde101069ac77fe1b10b62bf05",
   "README.md": "11a299b3c4bb91ddf56b4c7a8bad6d2bf993ce646a20b7154cab080861f75543",
+  "cooccurrence.py": "a21c500e2b4b642e3d964448eb4a5b3a40596f3d69ca38b188ac127d67650b5d",
   "calibrate.py": "25e96145b76b860961b8a6e0a2e4ad6e047d498a08321a2da741c5a23a30316f",
   "independent-result.json": "8e4247bdd78a8a67c7e84df88e4da126b5ad8aa53cffc1417a70d8394ffd1739",
   "independent-probe.py": "bdf4fa37593f192b94e494ab6b57e54914e9deb09a998de0c18ccfeb9baa2249"

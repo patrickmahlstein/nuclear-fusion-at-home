@@ -1,0 +1,624 @@
+{
+  "scope": "exploratory co-occurrence, exact original bounds; no subset is an admission rule",
+  "dataset_revision": "8da71572eb63ce93e77ce89bec0d7c30b7eba89e",
+  "range_manifest_sha256": "15c98aade58e3e0d34b55a1d36b0f7733a0c4fbef5b81293858688bf97cbc403",
+  "script_sha256": "a21c500e2b4b642e3d964448eb4a5b3a40596f3d69ca38b188ac127d67650b5d",
+  "selected": 12366,
+  "invalid_metrics": 0,
+  "all_five_flags_known": 0,
+  "all_five_flags_false": 0,
+  "bit_order": [
+    "vacuum_well",
+    "flux_compression_in_regions_of_bad_curvature",
+    "qi",
+    "edge_rotational_transform_over_n_field_periods",
+    "edge_magnetic_mirror_ratio"
+  ],
+  "exact_masks": [
+    {
+      "mask": 0,
+      "pass": [],
+      "count": 4134
+    },
+    {
+      "mask": 1,
+      "pass": [
+        "vacuum_well"
+      ],
+      "count": 37
+    },
+    {
+      "mask": 2,
+      "pass": [
+        "flux_compression_in_regions_of_bad_curvature"
+      ],
+      "count": 683
+    },
+    {
+      "mask": 3,
+      "pass": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature"
+      ],
+      "count": 441
+    },
+    {
+      "mask": 4,
+      "pass": [
+        "qi"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 5,
+      "pass": [
+        "vacuum_well",
+        "qi"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 6,
+      "pass": [
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 7,
+      "pass": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 8,
+      "pass": [
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 2520
+    },
+    {
+      "mask": 9,
+      "pass": [
+        "vacuum_well",
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 10
+    },
+    {
+      "mask": 10,
+      "pass": [
+        "flux_compression_in_regions_of_bad_curvature",
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 92
+    },
+    {
+      "mask": 11,
+      "pass": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature",
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 6
+    },
+    {
+      "mask": 12,
+      "pass": [
+        "qi",
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 13,
+      "pass": [
+        "vacuum_well",
+        "qi",
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 14,
+      "pass": [
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi",
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 15,
+      "pass": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi",
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 16,
+      "pass": [
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 3429
+    },
+    {
+      "mask": 17,
+      "pass": [
+        "vacuum_well",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 2
+    },
+    {
+      "mask": 18,
+      "pass": [
+        "flux_compression_in_regions_of_bad_curvature",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 67
+    },
+    {
+      "mask": 19,
+      "pass": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 18
+    },
+    {
+      "mask": 20,
+      "pass": [
+        "qi",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 21,
+      "pass": [
+        "vacuum_well",
+        "qi",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 22,
+      "pass": [
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 23,
+      "pass": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 24,
+      "pass": [
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 901
+    },
+    {
+      "mask": 25,
+      "pass": [
+        "vacuum_well",
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 26,
+      "pass": [
+        "flux_compression_in_regions_of_bad_curvature",
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 16
+    },
+    {
+      "mask": 27,
+      "pass": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature",
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 10
+    },
+    {
+      "mask": 28,
+      "pass": [
+        "qi",
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 29,
+      "pass": [
+        "vacuum_well",
+        "qi",
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 30,
+      "pass": [
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi",
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 31,
+      "pass": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi",
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    }
+  ],
+  "subset_intersections": [
+    {
+      "mask": 0,
+      "requires": [],
+      "count": 12366
+    },
+    {
+      "mask": 1,
+      "requires": [
+        "vacuum_well"
+      ],
+      "count": 524
+    },
+    {
+      "mask": 2,
+      "requires": [
+        "flux_compression_in_regions_of_bad_curvature"
+      ],
+      "count": 1333
+    },
+    {
+      "mask": 3,
+      "requires": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature"
+      ],
+      "count": 475
+    },
+    {
+      "mask": 4,
+      "requires": [
+        "qi"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 5,
+      "requires": [
+        "vacuum_well",
+        "qi"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 6,
+      "requires": [
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 7,
+      "requires": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 8,
+      "requires": [
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 3555
+    },
+    {
+      "mask": 9,
+      "requires": [
+        "vacuum_well",
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 26
+    },
+    {
+      "mask": 10,
+      "requires": [
+        "flux_compression_in_regions_of_bad_curvature",
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 124
+    },
+    {
+      "mask": 11,
+      "requires": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature",
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 16
+    },
+    {
+      "mask": 12,
+      "requires": [
+        "qi",
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 13,
+      "requires": [
+        "vacuum_well",
+        "qi",
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 14,
+      "requires": [
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi",
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 15,
+      "requires": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi",
+        "edge_rotational_transform_over_n_field_periods"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 16,
+      "requires": [
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 4443
+    },
+    {
+      "mask": 17,
+      "requires": [
+        "vacuum_well",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 30
+    },
+    {
+      "mask": 18,
+      "requires": [
+        "flux_compression_in_regions_of_bad_curvature",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 111
+    },
+    {
+      "mask": 19,
+      "requires": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 28
+    },
+    {
+      "mask": 20,
+      "requires": [
+        "qi",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 21,
+      "requires": [
+        "vacuum_well",
+        "qi",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 22,
+      "requires": [
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 23,
+      "requires": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 24,
+      "requires": [
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 927
+    },
+    {
+      "mask": 25,
+      "requires": [
+        "vacuum_well",
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 10
+    },
+    {
+      "mask": 26,
+      "requires": [
+        "flux_compression_in_regions_of_bad_curvature",
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 26
+    },
+    {
+      "mask": 27,
+      "requires": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature",
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 10
+    },
+    {
+      "mask": 28,
+      "requires": [
+        "qi",
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 29,
+      "requires": [
+        "vacuum_well",
+        "qi",
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 30,
+      "requires": [
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi",
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    },
+    {
+      "mask": 31,
+      "requires": [
+        "vacuum_well",
+        "flux_compression_in_regions_of_bad_curvature",
+        "qi",
+        "edge_rotational_transform_over_n_field_periods",
+        "edge_magnetic_mirror_ratio"
+      ],
+      "count": 0
+    }
+  ],
+  "pairwise": [
+    {
+      "left": "vacuum_well",
+      "right": "flux_compression_in_regions_of_bad_curvature",
+      "count": 475
+    },
+    {
+      "left": "vacuum_well",
+      "right": "qi",
+      "count": 0
+    },
+    {
+      "left": "vacuum_well",
+      "right": "edge_rotational_transform_over_n_field_periods",
+      "count": 26
+    },
+    {
+      "left": "vacuum_well",
+      "right": "edge_magnetic_mirror_ratio",
+      "count": 30
+    },
+    {
+      "left": "flux_compression_in_regions_of_bad_curvature",
+      "right": "qi",
+      "count": 0
+    },
+    {
+      "left": "flux_compression_in_regions_of_bad_curvature",
+      "right": "edge_rotational_transform_over_n_field_periods",
+      "count": 124
+    },
+    {
+      "left": "flux_compression_in_regions_of_bad_curvature",
+      "right": "edge_magnetic_mirror_ratio",
+      "count": 111
+    },
+    {
+      "left": "qi",
+      "right": "edge_rotational_transform_over_n_field_periods",
+      "count": 0
+    },
+    {
+      "left": "qi",
+      "right": "edge_magnetic_mirror_ratio",
+      "count": 0
+    },
+    {
+      "left": "edge_rotational_transform_over_n_field_periods",
+      "right": "edge_magnetic_mirror_ratio",
+      "count": 927
+    }
+  ],
+  "checks": [
+    "all 32 histogram/direct counts agree",
+    "primary five marginals and joint reproduced"
+  ],
+  "limitations": [
+    "Stored producer/fidelity not established; #112 controls pending.",
+    "Shared reader/PyArrow; not independent data or external peer review.",
+    "Exploratory diagnostics after primary zero joint-pass observation."
+  ]
+}
