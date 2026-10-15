@@ -1,0 +1,151 @@
+{
+ "kind": "realized-field-surfaces",
+ "completed": true,
+ "provenance": {
+  "schema_version": 1,
+  "host": {
+   "captured_at": "2026-10-15T04:47:57.688596+00:00",
+   "platform": "macOS-15.7.9-x86_64-i386-64bit",
+   "machine": "x86_64",
+   "processor": "i386",
+   "python": "3.12.15 (main, Oct  9 2026, 15:10:54) [Clang 22.1.3 ]",
+   "python_executable": "/private/tmp/claude-501/-Users-patrickkoch-projects-nuclear-fusion-at-home/9474c070-1df0-4569-8fcd-4a4b2bb16a65/scratchpad/native/env/bin/python",
+   "logical_cpu_count": 8
+  },
+  "repository": {
+   "path": "/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/worktrees/claude",
+   "available": true,
+   "commit": "ed72af9ad4e19633ca280f8bb364893f8822fc87",
+   "branch": "contribution/target-intake",
+   "dirty": true
+  },
+  "external_repositories": {}
+ },
+ "target_id": "selected401-regen-vmecpp080",
+ "target_input_sha256": "6bec3483eaced499bafe7ee94b16aa960d219ec1fec86cc0690012f8ebdb033e",
+ "target_check": "boundary/flux consistency; not dense identity",
+ "wout_sha256": "3d5df9a4df4d5225a29e3640064ef9e14974d141223b1c29bb3dd703c521b9c7",
+ "transits": 200,
+ "physical_admission": false,
+ "step4_pass": false,
+ "target_spec_sha256": "8b925649ca693c642a76e68d153e829575c17e949c5e1fb7b0c281a01620edd0",
+ "snapshot": "results/n18/spec-selected/seed.json",
+ "snapshot_sha256": "cd3239bfcf7dfa100ec671221f74da608299c950c12549e93d5e8a6077ae7647",
+ "current_A": 308903.7303277707,
+ "frozen_current": true,
+ "kernel_control": {
+  "position": 6.207205349076974e-16,
+  "tangent": 3.8480823230131745e-15,
+  "independent_volume": 3.2949776256536624e-16
+ },
+ "interpolation_errors": {
+  "48": 3.833601849095095e-06,
+  "64": 6.815966779953211e-07
+ },
+ "field": "InterpolatedField degree 4",
+ "lines": [
+  {
+   "s": 0.05,
+   "R0": 0.9434747528079273,
+   "transits": 200.0026725152094,
+   "left_target": false,
+   "termination": "requested_transits",
+   "iota_traced": -0.5908830936100904,
+   "iota_target": -0.5873231086287398
+  },
+  {
+   "s": 0.15,
+   "R0": 0.9504756837541462,
+   "transits": 200.0019182617677,
+   "left_target": false,
+   "termination": "requested_transits",
+   "iota_traced": -0.5800936896623663,
+   "iota_target": -0.5774674424729895
+  },
+  {
+   "s": 0.25,
+   "R0": 0.955326166163861,
+   "transits": 200.00109245176841,
+   "left_target": false,
+   "termination": "requested_transits",
+   "iota_traced": -0.5706986656292737,
+   "iota_target": -0.5678708445774006
+  },
+  {
+   "s": 0.35,
+   "R0": 0.9592945325064571,
+   "transits": 200.00216524155667,
+   "left_target": false,
+   "termination": "requested_transits",
+   "iota_traced": -0.5609890951236332,
+   "iota_target": -0.5585626656697857
+  },
+  {
+   "s": 0.45,
+   "R0": 0.9627489584455639,
+   "transits": 200.00275487584835,
+   "left_target": false,
+   "termination": "requested_transits",
+   "iota_traced": -0.5512058186684696,
+   "iota_target": -0.5494634548640063
+  },
+  {
+   "s": 0.55,
+   "R0": 0.9658571483021003,
+   "transits": 200.00355799603284,
+   "left_target": false,
+   "termination": "requested_transits",
+   "iota_traced": -0.5432806242386886,
+   "iota_target": -0.5405179718318633
+  },
+  {
+   "s": 0.65,
+   "R0": 0.9687115273135859,
+   "transits": 200.002390254934,
+   "left_target": false,
+   "termination": "requested_transits",
+   "iota_traced": -0.5340458953466036,
+   "iota_target": -0.5316874245166671
+  },
+  {
+   "s": 0.75,
+   "R0": 0.9713692114228416,
+   "transits": 200.00149263091984,
+   "left_target": false,
+   "termination": "requested_transits",
+   "iota_traced": -0.5261323086371773,
+   "iota_target": -0.5229429254321809
+  },
+  {
+   "s": 0.85,
+   "R0": 0.9738683460218374,
+   "transits": 200.00194397054722,
+   "left_target": false,
+   "termination": "requested_transits",
+   "iota_traced": -0.5189707284482722,
+   "iota_target": -0.5142646925727844
+  },
+  {
+   "s": 0.95,
+   "R0": 0.9762358473454181,
+   "transits": 200.00120682903096,
+   "left_target": false,
+   "termination": "requested_transits",
+   "iota_traced": -0.5116092884690417,
+   "iota_target": -0.5056384580148947
+  }
+ ],
+ "summary": {
+  "lines_confined": 10,
+  "lines": 10,
+  "max_abs_iota_mismatch": 0.005970830454147036,
+  "lines_completing_transits": 10,
+  "requested_transits": 200,
+  "classifier_stops_inside_target": 0,
+  "all_confined_and_iota_matching": true,
+  "nestedness_tested": false,
+  "iota_tolerance": 0.02,
+  "physical_admission": false
+ },
+ "seconds": 421.2
+}

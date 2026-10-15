@@ -1,0 +1,1107 @@
+{
+  "first": {
+    "path": "/private/tmp/claude-501/-Users-patrickkoch-projects-nuclear-fusion-at-home/9474c070-1df0-4569-8fcd-4a4b2bb16a65/scratchpad/native/wout_selected_regen.nc",
+    "sha256": "3d5df9a4df4d5225a29e3640064ef9e14974d141223b1c29bb3dd703c521b9c7"
+  },
+  "second": {
+    "path": "results/n18/selected401/wout.nc",
+    "sha256": "3d5df9a4df4d5225a29e3640064ef9e14974d141223b1c29bb3dd703c521b9c7"
+  },
+  "variables": {
+    "Aminor_p": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0987597550241566,
+      "max_rel": 0.0
+    },
+    "DCurr": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 336.6441681676701,
+      "max_rel": 0.0
+    },
+    "DGeod": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 3016907320.5594983,
+      "max_rel": 0.0
+    },
+    "DMerc": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 3016907656.00971,
+      "max_rel": 0.0
+    },
+    "DShear": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 2.484965718201107,
+      "max_rel": 0.0
+    },
+    "DWell": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "IonLarmor": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0025937135780739026,
+      "max_rel": 0.0
+    },
+    "Rmajor_p": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.9871584096415857,
+      "max_rel": 0.0
+    },
+    "ac": {
+      "comparable": true,
+      "shape": [
+        21
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "ac_aux_f": {
+      "comparable": true,
+      "shape": [
+        101
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "ac_aux_s": {
+      "comparable": true,
+      "shape": [
+        101
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.0,
+      "max_rel": 0.0
+    },
+    "ai": {
+      "comparable": true,
+      "shape": [
+        21
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "ai_aux_f": {
+      "comparable": true,
+      "shape": [
+        101
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "ai_aux_s": {
+      "comparable": true,
+      "shape": [
+        101
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.0,
+      "max_rel": 0.0
+    },
+    "am": {
+      "comparable": true,
+      "shape": [
+        21
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.0,
+      "max_rel": 0.0
+    },
+    "am_aux_f": {
+      "comparable": true,
+      "shape": [
+        101
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "am_aux_s": {
+      "comparable": true,
+      "shape": [
+        101
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.0,
+      "max_rel": 0.0
+    },
+    "aspect": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 9.995553445835576,
+      "max_rel": 0.0
+    },
+    "b0": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.5692233705807666,
+      "max_rel": 0.0
+    },
+    "bdotb": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.5336418114272496,
+      "max_rel": 0.0
+    },
+    "bdotgradv": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.046456703801391,
+      "max_rel": 0.0
+    },
+    "beta_vol": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "betapol": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "betator": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "betatotal": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "betaxis": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "bmnc": {
+      "comparable": true,
+      "shape": [
+        401,
+        809
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.258760519666642,
+      "max_rel": 0.0
+    },
+    "bsubsmns": {
+      "comparable": true,
+      "shape": [
+        401,
+        809
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.8806725054927501,
+      "max_rel": 0.0
+    },
+    "bsubumnc": {
+      "comparable": true,
+      "shape": [
+        401,
+        809
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.05717403569867478,
+      "max_rel": 0.0
+    },
+    "bsubvmnc": {
+      "comparable": true,
+      "shape": [
+        401,
+        809
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.4655581435861846,
+      "max_rel": 0.0
+    },
+    "bsupumnc": {
+      "comparable": true,
+      "shape": [
+        401,
+        809
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.6493117159408381,
+      "max_rel": 0.0
+    },
+    "bsupvmnc": {
+      "comparable": true,
+      "shape": [
+        401,
+        809
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.085340313222452,
+      "max_rel": 0.0
+    },
+    "buco": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 3.8746675139200715e-17,
+      "max_rel": 0.0
+    },
+    "bvco": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.4655581435861864,
+      "max_rel": 0.0
+    },
+    "chi": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.01713977165556685,
+      "max_rel": 0.0
+    },
+    "chipf": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.01859604623595661,
+      "max_rel": 0.0
+    },
+    "ctor": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 5.234663614031576e-11,
+      "max_rel": 0.0
+    },
+    "currumnc": {
+      "comparable": true,
+      "shape": [
+        401,
+        809
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 198501.47921976945,
+      "max_rel": 0.0
+    },
+    "currvmnc": {
+      "comparable": true,
+      "shape": [
+        401,
+        809
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 99263.1176909845,
+      "max_rel": 0.0
+    },
+    "delbsq": {
+      "comparable": true,
+      "shape": [
+        6967
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "equif": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.0000000015082247,
+      "max_rel": 0.0
+    },
+    "extcur": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 9.969209968386869e+36,
+      "max_rel": 0.0
+    },
+    "force_residual_lambda": {
+      "comparable": true,
+      "shape": [
+        6967
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.023541597697726548,
+      "max_rel": 0.0
+    },
+    "force_residual_r": {
+      "comparable": true,
+      "shape": [
+        6967
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.22727582325639695,
+      "max_rel": 0.0
+    },
+    "force_residual_z": {
+      "comparable": true,
+      "shape": [
+        6967
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.711005258468271,
+      "max_rel": 0.0
+    },
+    "fsql": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 3.010971260773621e-17,
+      "max_rel": 0.0
+    },
+    "fsqr": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 9.93101847113086e-13,
+      "max_rel": 0.0
+    },
+    "fsqt": {
+      "comparable": true,
+      "shape": [
+        6967
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.9384115544795015,
+      "max_rel": 0.0
+    },
+    "fsqz": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 2.9521775934275525e-13,
+      "max_rel": 0.0
+    },
+    "ftolv": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1e-12,
+      "max_rel": 0.0
+    },
+    "gamma": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "gmnc": {
+      "comparable": true,
+      "shape": [
+        401,
+        809
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.00485320956157417,
+      "max_rel": 0.0
+    },
+    "ier_flag": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "input_extension": {
+      "comparable": false,
+      "equal": true
+    },
+    "iotaf": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.5919305360835858,
+      "max_rel": 0.0
+    },
+    "iotas": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.5918447169396608,
+      "max_rel": 0.0
+    },
+    "itfsq": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 6967.0,
+      "max_rel": 0.0
+    },
+    "jcuru": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 30.799049330442134,
+      "max_rel": 0.0
+    },
+    "jcurv": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.8649004296829946e-08,
+      "max_rel": 0.0
+    },
+    "jdotb": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 41.549784559241104,
+      "max_rel": 0.0
+    },
+    "lasym__logical__": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "lfreeb__logical__": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "lmns": {
+      "comparable": true,
+      "shape": [
+        401,
+        95
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.1060898668154464,
+      "max_rel": 0.0
+    },
+    "lmns_full": {
+      "comparable": true,
+      "shape": [
+        401,
+        95
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.10616379381126254,
+      "max_rel": 0.0
+    },
+    "lrfp__logical__": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "mass": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "mgrid_file": {
+      "comparable": false,
+      "equal": true
+    },
+    "mgrid_mode": {
+      "comparable": false,
+      "equal": true
+    },
+    "mnmax": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 95.0,
+      "max_rel": 0.0
+    },
+    "mnmax_nyq": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 809.0,
+      "max_rel": 0.0
+    },
+    "mpol": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 5.0,
+      "max_rel": 0.0
+    },
+    "nextcur": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "nfp": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 2.0,
+      "max_rel": 0.0
+    },
+    "niter": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 3096.0,
+      "max_rel": 0.0
+    },
+    "ns": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 401.0,
+      "max_rel": 0.0
+    },
+    "ntor": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 10.0,
+      "max_rel": 0.0
+    },
+    "over_r": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.0134441891651513,
+      "max_rel": 0.0
+    },
+    "pcurr_type": {
+      "comparable": false,
+      "equal": true
+    },
+    "phi": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.03141592653589761,
+      "max_rel": 0.0
+    },
+    "phipf": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.03141592653589793,
+      "max_rel": 0.0
+    },
+    "phips": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.004999999999999999,
+      "max_rel": 0.0
+    },
+    "piota_type": {
+      "comparable": false,
+      "equal": true
+    },
+    "pmass_type": {
+      "comparable": false,
+      "equal": true
+    },
+    "pres": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "presf": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "q_factor": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.9946546838665888,
+      "max_rel": 0.0
+    },
+    "raxis_cc": {
+      "comparable": true,
+      "shape": [
+        11
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.9924119721011462,
+      "max_rel": 0.0
+    },
+    "rbtor": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.465558143838449,
+      "max_rel": 0.0
+    },
+    "rbtor0": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.4655568503071421,
+      "max_rel": 0.0
+    },
+    "restart_reasons": {
+      "comparable": true,
+      "shape": [
+        6967
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.0,
+      "max_rel": 0.0
+    },
+    "rmax_surf": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.1656768030647067,
+      "max_rel": 0.0
+    },
+    "rmin_surf": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.7255366600172553,
+      "max_rel": 0.0
+    },
+    "rmnc": {
+      "comparable": true,
+      "shape": [
+        401,
+        95
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.0,
+      "max_rel": 0.0
+    },
+    "signgs": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.0,
+      "max_rel": 0.0
+    },
+    "specw": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.1580753633217475,
+      "max_rel": 0.0
+    },
+    "version_": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 8.52,
+      "max_rel": 0.0
+    },
+    "volavgB": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 1.23375226434074,
+      "max_rel": 0.0
+    },
+    "volume_p": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.1900538180325193,
+      "max_rel": 0.0
+    },
+    "vp": {
+      "comparable": true,
+      "shape": [
+        401
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.004853209561574169,
+      "max_rel": 0.0
+    },
+    "wb": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.003663893081847477,
+      "max_rel": 0.0
+    },
+    "wdot": {
+      "comparable": true,
+      "shape": [
+        6967
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.009536964056461575,
+      "max_rel": 0.0
+    },
+    "wp": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.0,
+      "max_rel": 0.0
+    },
+    "xm": {
+      "comparable": true,
+      "shape": [
+        95
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 4.0,
+      "max_rel": 0.0
+    },
+    "xm_nyq": {
+      "comparable": true,
+      "shape": [
+        809
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 16.0,
+      "max_rel": 0.0
+    },
+    "xn": {
+      "comparable": true,
+      "shape": [
+        95
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 20.0,
+      "max_rel": 0.0
+    },
+    "xn_nyq": {
+      "comparable": true,
+      "shape": [
+        809
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 48.0,
+      "max_rel": 0.0
+    },
+    "zaxis_cs": {
+      "comparable": true,
+      "shape": [
+        11
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.4152788480019061,
+      "max_rel": 0.0
+    },
+    "zmax_surf": {
+      "comparable": true,
+      "shape": [],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.5736452817506168,
+      "max_rel": 0.0
+    },
+    "zmns": {
+      "comparable": true,
+      "shape": [
+        401,
+        95
+      ],
+      "identical": true,
+      "same_nonfinite": true,
+      "max_abs": 0.0,
+      "scale": 0.4152788480019061,
+      "max_rel": 0.0
+    }
+  },
+  "only_first": [],
+  "only_second": [],
+  "identical": true,
+  "worst_variable": "Aminor_p",
+  "worst_max_rel": 0.0
+}
