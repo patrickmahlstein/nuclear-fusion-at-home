@@ -16,5 +16,10 @@
     "Stored-label calibration conditional on issue112 scorer controls; no native equilibria generated.",
     "Original acquisition helpers had separate 20MiB guards for column ranges and metadata, so combined cached inputs exceeded that helper guard (20.51MiB), but remained below preregistered128MiB input-transfer cap. Generated nonrange outputs remained below20MiB.",
     "Independent arithmetic shares the data reader and PyArrow with primary analysis; not external peer review."
-  ]
+  ],
+  "correction": {
+    "original_evidence_commit": "3ec6875df956cdaeb87df7b4cfeea8bdacd5a6e5",
+    "original_evidence_tag": "evidence-plasma-requirements-calibration-2026-10-15",
+    "change": "Independent arithmetic wrapper uses explicit cache/output paths; arithmetic unchanged. Adds a separately preregistered exploratory co-occurrence supplement. Original identities remain preserved."
+  }
 }

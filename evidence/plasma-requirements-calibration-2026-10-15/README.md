@@ -26,10 +26,18 @@ The analysis imports no fetched publisher code. Cache mutation fails checksum
 validation before analysis. The original raw cache is retained outside Git.
 
 `independent-probe.py` and `independent-result.json` record a second arithmetic
-implementation. The probe's original local paths are machine-specific; change
-only paths for replay. It shares the verified data reader and PyArrow.
-Its QI minima/global count are explicitly exploratory diagnostics after the
-zero selected-QI result, not altered calibration subpopulations or thresholds.
+implementation, sharing the verified data reader and PyArrow. Replay it with:
+
+```bash
+OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 ARROW_NUM_THREADS=1 python independent-probe.py --output independent-replay.json
+```
+
+The wrapper now uses this directory by default, with explicit `--cache` and
+`--output` options. This corrects the original snapshot's machine-specific paths;
+its arithmetic is unchanged. Its QI minima/global count are explicitly
+exploratory diagnostics after the zero selected-QI result, not changed calibration
+subpopulations or thresholds. The original immutable tag/commit remains available;
+this correction and the co-occurrence supplement receive a new tag.
 
 ## Scope and caveats
 
