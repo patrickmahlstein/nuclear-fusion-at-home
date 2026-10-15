@@ -1,0 +1,2284 @@
+{
+  "scope": "Exploratory stored-label context; no admission, threshold change or seed selection.",
+  "dataset_revision": "8da71572eb63ce93e77ce89bec0d7c30b7eba89e",
+  "primary_evidence_commit": "0efdc425c56d55cbc5d09090888c9748650d77ce",
+  "protocol_comment": "https://github.com/DrWorkhard/nuclear-fusion-at-home/issues/113#issuecomment-6184923865",
+  "script_sha256": "38bede90fac8e92c724fa7fe64ebef755037821d47abc3fdee1c8d180ea4449d",
+  "range_manifest_sha256": "15c98aade58e3e0d34b55a1d36b0f7733a0c4fbef5b81293858688bf97cbc403",
+  "global_rows": 182222,
+  "global_valid_nonnegative_qi": 158685,
+  "global_qi_passes": 9,
+  "missing_nfp": 1,
+  "invalid_nfp": 0,
+  "nfp_outside_1_to_5": {},
+  "aspect_edges": [
+    0,
+    4,
+    6,
+    8,
+    10,
+    12,
+    16,
+    null
+  ],
+  "primary_closed_slice": {
+    "rows": 12366,
+    "complete_metrics": 12366,
+    "metric_joint": 0,
+    "metric_joint_forward_false": 0,
+    "original_strict_flag_joint": 0,
+    "all_five_historical_flags_known": 0,
+    "forward_error_true": 0,
+    "forward_error_false": 12366,
+    "forward_error_unknown": 0,
+    "marginals": {
+      "vacuum_well": {
+        "valid": 12366,
+        "passes": 524,
+        "fraction_population": 0.042374251981238883,
+        "fraction_valid": 0.042374251981238883
+      },
+      "flux_compression_in_regions_of_bad_curvature": {
+        "valid": 12366,
+        "passes": 1333,
+        "fraction_population": 0.10779556849425845,
+        "fraction_valid": 0.10779556849425845
+      },
+      "qi": {
+        "valid": 12366,
+        "passes": 0,
+        "fraction_population": 0.0,
+        "fraction_valid": 0.0
+      },
+      "edge_rotational_transform_over_n_field_periods": {
+        "valid": 12366,
+        "passes": 3555,
+        "fraction_population": 0.28748180494905384,
+        "fraction_valid": 0.28748180494905384
+      },
+      "edge_magnetic_mirror_ratio": {
+        "valid": 12366,
+        "passes": 4443,
+        "fraction_population": 0.35929160601649685,
+        "fraction_valid": 0.35929160601649685
+      }
+    },
+    "metric_joint_fraction_population": 0.0,
+    "metric_joint_fraction_complete": 0.0
+  },
+  "cohorts": {
+    "nfp_1": {
+      "all_rows": 17694,
+      "excluded_aspect_missing": 3087,
+      "excluded_aspect_invalid": 0,
+      "positive_aspect_total": {
+        "rows": 14607,
+        "complete_metrics": 14607,
+        "metric_joint": 0,
+        "metric_joint_forward_false": 0,
+        "original_strict_flag_joint": 0,
+        "all_five_historical_flags_known": 0,
+        "forward_error_true": 0,
+        "forward_error_false": 14607,
+        "forward_error_unknown": 0,
+        "marginals": {
+          "vacuum_well": {
+            "valid": 14607,
+            "passes": 3594,
+            "fraction_population": 0.24604641610186898,
+            "fraction_valid": 0.24604641610186898
+          },
+          "flux_compression_in_regions_of_bad_curvature": {
+            "valid": 14607,
+            "passes": 6604,
+            "fraction_population": 0.45211200109536526,
+            "fraction_valid": 0.45211200109536526
+          },
+          "qi": {
+            "valid": 14607,
+            "passes": 0,
+            "fraction_population": 0.0,
+            "fraction_valid": 0.0
+          },
+          "edge_rotational_transform_over_n_field_periods": {
+            "valid": 14607,
+            "passes": 5588,
+            "fraction_population": 0.3825563086191552,
+            "fraction_valid": 0.3825563086191552
+          },
+          "edge_magnetic_mirror_ratio": {
+            "valid": 14607,
+            "passes": 2561,
+            "fraction_population": 0.17532689806257273,
+            "fraction_valid": 0.17532689806257273
+          }
+        },
+        "metric_joint_fraction_population": 0.0,
+        "metric_joint_fraction_complete": 0.0
+      },
+      "bins": {
+        "[0,4)": {
+          "rows": 92,
+          "complete_metrics": 92,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 92,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 92,
+              "passes": 37,
+              "fraction_population": 0.40217391304347827,
+              "fraction_valid": 0.40217391304347827
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 92,
+              "passes": 61,
+              "fraction_population": 0.6630434782608695,
+              "fraction_valid": 0.6630434782608695
+            },
+            "qi": {
+              "valid": 92,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 92,
+              "passes": 28,
+              "fraction_population": 0.30434782608695654,
+              "fraction_valid": 0.30434782608695654
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 92,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[4,6)": {
+          "rows": 1502,
+          "complete_metrics": 1502,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 1502,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 1502,
+              "passes": 398,
+              "fraction_population": 0.26498002663115844,
+              "fraction_valid": 0.26498002663115844
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 1502,
+              "passes": 505,
+              "fraction_population": 0.3362183754993342,
+              "fraction_valid": 0.3362183754993342
+            },
+            "qi": {
+              "valid": 1502,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 1502,
+              "passes": 902,
+              "fraction_population": 0.6005326231691078,
+              "fraction_valid": 0.6005326231691078
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 1502,
+              "passes": 1,
+              "fraction_population": 0.0006657789613848203,
+              "fraction_valid": 0.0006657789613848203
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[6,8)": {
+          "rows": 1673,
+          "complete_metrics": 1673,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 1673,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 1673,
+              "passes": 302,
+              "fraction_population": 0.18051404662283324,
+              "fraction_valid": 0.18051404662283324
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 1673,
+              "passes": 687,
+              "fraction_population": 0.41063956963538556,
+              "fraction_valid": 0.41063956963538556
+            },
+            "qi": {
+              "valid": 1673,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 1673,
+              "passes": 902,
+              "fraction_population": 0.539151225343694,
+              "fraction_valid": 0.539151225343694
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 1673,
+              "passes": 8,
+              "fraction_population": 0.004781829049611476,
+              "fraction_valid": 0.004781829049611476
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[8,10)": {
+          "rows": 10256,
+          "complete_metrics": 10256,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 10256,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 10256,
+              "passes": 2842,
+              "fraction_population": 0.27710608424336974,
+              "fraction_valid": 0.27710608424336974
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 10256,
+              "passes": 5200,
+              "fraction_population": 0.5070202808112324,
+              "fraction_valid": 0.5070202808112324
+            },
+            "qi": {
+              "valid": 10256,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 10256,
+              "passes": 3104,
+              "fraction_population": 0.30265210608424337,
+              "fraction_valid": 0.30265210608424337
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 10256,
+              "passes": 2058,
+              "fraction_population": 0.20066302652106086,
+              "fraction_valid": 0.20066302652106086
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[10,12)": {
+          "rows": 1084,
+          "complete_metrics": 1084,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 1084,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 1084,
+              "passes": 15,
+              "fraction_population": 0.013837638376383764,
+              "fraction_valid": 0.013837638376383764
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 1084,
+              "passes": 151,
+              "fraction_population": 0.1392988929889299,
+              "fraction_valid": 0.1392988929889299
+            },
+            "qi": {
+              "valid": 1084,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 1084,
+              "passes": 652,
+              "fraction_population": 0.6014760147601476,
+              "fraction_valid": 0.6014760147601476
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 1084,
+              "passes": 494,
+              "fraction_population": 0.45571955719557194,
+              "fraction_valid": 0.45571955719557194
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[12,16)": {
+          "rows": 0,
+          "complete_metrics": 0,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 0,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "qi": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            }
+          },
+          "metric_joint_fraction_population": null,
+          "metric_joint_fraction_complete": null
+        },
+        "[16,infinity)": {
+          "rows": 0,
+          "complete_metrics": 0,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 0,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "qi": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            }
+          },
+          "metric_joint_fraction_population": null,
+          "metric_joint_fraction_complete": null
+        }
+      }
+    },
+    "nfp_2": {
+      "all_rows": 21565,
+      "excluded_aspect_missing": 1620,
+      "excluded_aspect_invalid": 0,
+      "positive_aspect_total": {
+        "rows": 19945,
+        "complete_metrics": 19945,
+        "metric_joint": 0,
+        "metric_joint_forward_false": 0,
+        "original_strict_flag_joint": 0,
+        "all_five_historical_flags_known": 0,
+        "forward_error_true": 0,
+        "forward_error_false": 19945,
+        "forward_error_unknown": 0,
+        "marginals": {
+          "vacuum_well": {
+            "valid": 19945,
+            "passes": 1260,
+            "fraction_population": 0.06317372775131612,
+            "fraction_valid": 0.06317372775131612
+          },
+          "flux_compression_in_regions_of_bad_curvature": {
+            "valid": 19945,
+            "passes": 3377,
+            "fraction_population": 0.16931561794936073,
+            "fraction_valid": 0.16931561794936073
+          },
+          "qi": {
+            "valid": 19945,
+            "passes": 9,
+            "fraction_population": 0.00045124091250940083,
+            "fraction_valid": 0.00045124091250940083
+          },
+          "edge_rotational_transform_over_n_field_periods": {
+            "valid": 19945,
+            "passes": 7116,
+            "fraction_population": 0.35678114815743295,
+            "fraction_valid": 0.35678114815743295
+          },
+          "edge_magnetic_mirror_ratio": {
+            "valid": 19945,
+            "passes": 4602,
+            "fraction_population": 0.23073451992980698,
+            "fraction_valid": 0.23073451992980698
+          }
+        },
+        "metric_joint_fraction_population": 0.0,
+        "metric_joint_fraction_complete": 0.0
+      },
+      "bins": {
+        "[0,4)": {
+          "rows": 94,
+          "complete_metrics": 94,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 94,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 94,
+              "passes": 7,
+              "fraction_population": 0.07446808510638298,
+              "fraction_valid": 0.07446808510638298
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 94,
+              "passes": 65,
+              "fraction_population": 0.6914893617021277,
+              "fraction_valid": 0.6914893617021277
+            },
+            "qi": {
+              "valid": 94,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 94,
+              "passes": 26,
+              "fraction_population": 0.2765957446808511,
+              "fraction_valid": 0.2765957446808511
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 94,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[4,6)": {
+          "rows": 1893,
+          "complete_metrics": 1893,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 1893,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 1893,
+              "passes": 42,
+              "fraction_population": 0.022187004754358162,
+              "fraction_valid": 0.022187004754358162
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 1893,
+              "passes": 514,
+              "fraction_population": 0.27152667723190704,
+              "fraction_valid": 0.27152667723190704
+            },
+            "qi": {
+              "valid": 1893,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 1893,
+              "passes": 936,
+              "fraction_population": 0.49445324881141045,
+              "fraction_valid": 0.49445324881141045
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 1893,
+              "passes": 6,
+              "fraction_population": 0.003169572107765452,
+              "fraction_valid": 0.003169572107765452
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[6,8)": {
+          "rows": 2951,
+          "complete_metrics": 2951,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 2951,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 2951,
+              "passes": 250,
+              "fraction_population": 0.08471704506946798,
+              "fraction_valid": 0.08471704506946798
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 2951,
+              "passes": 795,
+              "fraction_population": 0.2694002033209082,
+              "fraction_valid": 0.2694002033209082
+            },
+            "qi": {
+              "valid": 2951,
+              "passes": 8,
+              "fraction_population": 0.0027109454422229754,
+              "fraction_valid": 0.0027109454422229754
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 2951,
+              "passes": 1477,
+              "fraction_population": 0.5005083022704168,
+              "fraction_valid": 0.5005083022704168
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 2951,
+              "passes": 29,
+              "fraction_population": 0.009827177228058285,
+              "fraction_valid": 0.009827177228058285
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[8,10)": {
+          "rows": 10653,
+          "complete_metrics": 10653,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 10653,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 10653,
+              "passes": 951,
+              "fraction_population": 0.0892706279921149,
+              "fraction_valid": 0.0892706279921149
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 10653,
+              "passes": 1942,
+              "fraction_population": 0.18229606683563315,
+              "fraction_valid": 0.18229606683563315
+            },
+            "qi": {
+              "valid": 10653,
+              "passes": 1,
+              "fraction_population": 9.387027128508402e-05,
+              "fraction_valid": 9.387027128508402e-05
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 10653,
+              "passes": 3201,
+              "fraction_population": 0.30047873838355393,
+              "fraction_valid": 0.30047873838355393
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 10653,
+              "passes": 1425,
+              "fraction_population": 0.13376513658124473,
+              "fraction_valid": 0.13376513658124473
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[10,12)": {
+          "rows": 4354,
+          "complete_metrics": 4354,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 4354,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 4354,
+              "passes": 10,
+              "fraction_population": 0.0022967386311437757,
+              "fraction_valid": 0.0022967386311437757
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 4354,
+              "passes": 61,
+              "fraction_population": 0.014010105649977032,
+              "fraction_valid": 0.014010105649977032
+            },
+            "qi": {
+              "valid": 4354,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 4354,
+              "passes": 1476,
+              "fraction_population": 0.3389986219568213,
+              "fraction_valid": 0.3389986219568213
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 4354,
+              "passes": 3142,
+              "fraction_population": 0.7216352779053744,
+              "fraction_valid": 0.7216352779053744
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[12,16)": {
+          "rows": 0,
+          "complete_metrics": 0,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 0,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "qi": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            }
+          },
+          "metric_joint_fraction_population": null,
+          "metric_joint_fraction_complete": null
+        },
+        "[16,infinity)": {
+          "rows": 0,
+          "complete_metrics": 0,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 0,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "qi": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            }
+          },
+          "metric_joint_fraction_population": null,
+          "metric_joint_fraction_complete": null
+        }
+      }
+    },
+    "nfp_3": {
+      "all_rows": 82043,
+      "excluded_aspect_missing": 13852,
+      "excluded_aspect_invalid": 0,
+      "positive_aspect_total": {
+        "rows": 68191,
+        "complete_metrics": 68191,
+        "metric_joint": 0,
+        "metric_joint_forward_false": 0,
+        "original_strict_flag_joint": 0,
+        "all_five_historical_flags_known": 0,
+        "forward_error_true": 0,
+        "forward_error_false": 68191,
+        "forward_error_unknown": 0,
+        "marginals": {
+          "vacuum_well": {
+            "valid": 68191,
+            "passes": 1906,
+            "fraction_population": 0.027950902611781615,
+            "fraction_valid": 0.027950902611781615
+          },
+          "flux_compression_in_regions_of_bad_curvature": {
+            "valid": 68191,
+            "passes": 16280,
+            "fraction_population": 0.23874118285404233,
+            "fraction_valid": 0.23874118285404233
+          },
+          "qi": {
+            "valid": 68191,
+            "passes": 0,
+            "fraction_population": 0.0,
+            "fraction_valid": 0.0
+          },
+          "edge_rotational_transform_over_n_field_periods": {
+            "valid": 68191,
+            "passes": 35495,
+            "fraction_population": 0.5205232362041912,
+            "fraction_valid": 0.5205232362041912
+          },
+          "edge_magnetic_mirror_ratio": {
+            "valid": 68191,
+            "passes": 5801,
+            "fraction_population": 0.08506987725652945,
+            "fraction_valid": 0.08506987725652945
+          }
+        },
+        "metric_joint_fraction_population": 0.0,
+        "metric_joint_fraction_complete": 0.0
+      },
+      "bins": {
+        "[0,4)": {
+          "rows": 154,
+          "complete_metrics": 154,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 154,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 154,
+              "passes": 3,
+              "fraction_population": 0.01948051948051948,
+              "fraction_valid": 0.01948051948051948
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 154,
+              "passes": 86,
+              "fraction_population": 0.5584415584415584,
+              "fraction_valid": 0.5584415584415584
+            },
+            "qi": {
+              "valid": 154,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 154,
+              "passes": 67,
+              "fraction_population": 0.43506493506493504,
+              "fraction_valid": 0.43506493506493504
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 154,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[4,6)": {
+          "rows": 9026,
+          "complete_metrics": 9026,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 9026,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 9026,
+              "passes": 428,
+              "fraction_population": 0.04741856857965877,
+              "fraction_valid": 0.04741856857965877
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 9026,
+              "passes": 2221,
+              "fraction_population": 0.24606691779304232,
+              "fraction_valid": 0.24606691779304232
+            },
+            "qi": {
+              "valid": 9026,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 9026,
+              "passes": 6050,
+              "fraction_population": 0.670285840904055,
+              "fraction_valid": 0.670285840904055
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 9026,
+              "passes": 98,
+              "fraction_population": 0.010857522712164856,
+              "fraction_valid": 0.010857522712164856
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[6,8)": {
+          "rows": 17421,
+          "complete_metrics": 17421,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 17421,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 17421,
+              "passes": 562,
+              "fraction_population": 0.03225991619310028,
+              "fraction_valid": 0.03225991619310028
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 17421,
+              "passes": 6802,
+              "fraction_population": 0.3904483095115091,
+              "fraction_valid": 0.3904483095115091
+            },
+            "qi": {
+              "valid": 17421,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 17421,
+              "passes": 9353,
+              "fraction_population": 0.5368807760748522,
+              "fraction_valid": 0.5368807760748522
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 17421,
+              "passes": 458,
+              "fraction_population": 0.026290109637793466,
+              "fraction_valid": 0.026290109637793466
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[8,10)": {
+          "rows": 29658,
+          "complete_metrics": 29658,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 29658,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 29658,
+              "passes": 608,
+              "fraction_population": 0.020500370894868163,
+              "fraction_valid": 0.020500370894868163
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 29658,
+              "passes": 6161,
+              "fraction_population": 0.20773484388697822,
+              "fraction_valid": 0.20773484388697822
+            },
+            "qi": {
+              "valid": 29658,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 29658,
+              "passes": 13447,
+              "fraction_population": 0.45340211747252007,
+              "fraction_valid": 0.45340211747252007
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 29658,
+              "passes": 2736,
+              "fraction_population": 0.09225166902690674,
+              "fraction_valid": 0.09225166902690674
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[10,12)": {
+          "rows": 11900,
+          "complete_metrics": 11900,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 11900,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 11900,
+              "passes": 302,
+              "fraction_population": 0.025378151260504203,
+              "fraction_valid": 0.025378151260504203
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 11900,
+              "passes": 997,
+              "fraction_population": 0.08378151260504202,
+              "fraction_valid": 0.08378151260504202
+            },
+            "qi": {
+              "valid": 11900,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 11900,
+              "passes": 6570,
+              "fraction_population": 0.5521008403361345,
+              "fraction_valid": 0.5521008403361345
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 11900,
+              "passes": 2503,
+              "fraction_population": 0.21033613445378152,
+              "fraction_valid": 0.21033613445378152
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[12,16)": {
+          "rows": 32,
+          "complete_metrics": 32,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 32,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 32,
+              "passes": 3,
+              "fraction_population": 0.09375,
+              "fraction_valid": 0.09375
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 32,
+              "passes": 13,
+              "fraction_population": 0.40625,
+              "fraction_valid": 0.40625
+            },
+            "qi": {
+              "valid": 32,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 32,
+              "passes": 8,
+              "fraction_population": 0.25,
+              "fraction_valid": 0.25
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 32,
+              "passes": 6,
+              "fraction_population": 0.1875,
+              "fraction_valid": 0.1875
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[16,infinity)": {
+          "rows": 0,
+          "complete_metrics": 0,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 0,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "qi": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            }
+          },
+          "metric_joint_fraction_population": null,
+          "metric_joint_fraction_complete": null
+        }
+      }
+    },
+    "nfp_4": {
+      "all_rows": 30043,
+      "excluded_aspect_missing": 2245,
+      "excluded_aspect_invalid": 0,
+      "positive_aspect_total": {
+        "rows": 27798,
+        "complete_metrics": 27798,
+        "metric_joint": 0,
+        "metric_joint_forward_false": 0,
+        "original_strict_flag_joint": 0,
+        "all_five_historical_flags_known": 0,
+        "forward_error_true": 0,
+        "forward_error_false": 27798,
+        "forward_error_unknown": 0,
+        "marginals": {
+          "vacuum_well": {
+            "valid": 27798,
+            "passes": 544,
+            "fraction_population": 0.01956975321965609,
+            "fraction_valid": 0.01956975321965609
+          },
+          "flux_compression_in_regions_of_bad_curvature": {
+            "valid": 27798,
+            "passes": 5238,
+            "fraction_population": 0.18843082236132097,
+            "fraction_valid": 0.18843082236132097
+          },
+          "qi": {
+            "valid": 27798,
+            "passes": 0,
+            "fraction_population": 0.0,
+            "fraction_valid": 0.0
+          },
+          "edge_rotational_transform_over_n_field_periods": {
+            "valid": 27798,
+            "passes": 4359,
+            "fraction_population": 0.15680984243470752,
+            "fraction_valid": 0.15680984243470752
+          },
+          "edge_magnetic_mirror_ratio": {
+            "valid": 27798,
+            "passes": 4757,
+            "fraction_population": 0.17112741923879415,
+            "fraction_valid": 0.17112741923879415
+          }
+        },
+        "metric_joint_fraction_population": 0.0,
+        "metric_joint_fraction_complete": 0.0
+      },
+      "bins": {
+        "[0,4)": {
+          "rows": 24,
+          "complete_metrics": 24,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 24,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 24,
+              "passes": 1,
+              "fraction_population": 0.041666666666666664,
+              "fraction_valid": 0.041666666666666664
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 24,
+              "passes": 24,
+              "fraction_population": 1.0,
+              "fraction_valid": 1.0
+            },
+            "qi": {
+              "valid": 24,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 24,
+              "passes": 6,
+              "fraction_population": 0.25,
+              "fraction_valid": 0.25
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 24,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[4,6)": {
+          "rows": 1233,
+          "complete_metrics": 1233,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 1233,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 1233,
+              "passes": 18,
+              "fraction_population": 0.014598540145985401,
+              "fraction_valid": 0.014598540145985401
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 1233,
+              "passes": 799,
+              "fraction_population": 0.6480129764801298,
+              "fraction_valid": 0.6480129764801298
+            },
+            "qi": {
+              "valid": 1233,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 1233,
+              "passes": 567,
+              "fraction_population": 0.45985401459854014,
+              "fraction_valid": 0.45985401459854014
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 1233,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[6,8)": {
+          "rows": 6182,
+          "complete_metrics": 6182,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 6182,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 6182,
+              "passes": 332,
+              "fraction_population": 0.0537043028146231,
+              "fraction_valid": 0.0537043028146231
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 6182,
+              "passes": 938,
+              "fraction_population": 0.15173083144613395,
+              "fraction_valid": 0.15173083144613395
+            },
+            "qi": {
+              "valid": 6182,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 6182,
+              "passes": 1075,
+              "fraction_population": 0.1738919443545778,
+              "fraction_valid": 0.1738919443545778
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 6182,
+              "passes": 33,
+              "fraction_population": 0.005338078291814947,
+              "fraction_valid": 0.005338078291814947
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[8,10)": {
+          "rows": 14606,
+          "complete_metrics": 14606,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 14606,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 14606,
+              "passes": 186,
+              "fraction_population": 0.012734492674243461,
+              "fraction_valid": 0.012734492674243461
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 14606,
+              "passes": 2410,
+              "fraction_population": 0.16500068465014378,
+              "fraction_valid": 0.16500068465014378
+            },
+            "qi": {
+              "valid": 14606,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 14606,
+              "passes": 1853,
+              "fraction_population": 0.12686567164179105,
+              "fraction_valid": 0.12686567164179105
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 14606,
+              "passes": 1617,
+              "fraction_population": 0.11070792824866493,
+              "fraction_valid": 0.11070792824866493
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[10,12)": {
+          "rows": 5752,
+          "complete_metrics": 5752,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 5752,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 5752,
+              "passes": 6,
+              "fraction_population": 0.001043115438108484,
+              "fraction_valid": 0.001043115438108484
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 5752,
+              "passes": 1066,
+              "fraction_population": 0.185326842837274,
+              "fraction_valid": 0.185326842837274
+            },
+            "qi": {
+              "valid": 5752,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 5752,
+              "passes": 858,
+              "fraction_population": 0.14916550764951322,
+              "fraction_valid": 0.14916550764951322
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 5752,
+              "passes": 3107,
+              "fraction_population": 0.5401599443671766,
+              "fraction_valid": 0.5401599443671766
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[12,16)": {
+          "rows": 1,
+          "complete_metrics": 1,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 1,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 1,
+              "passes": 1,
+              "fraction_population": 1.0,
+              "fraction_valid": 1.0
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 1,
+              "passes": 1,
+              "fraction_population": 1.0,
+              "fraction_valid": 1.0
+            },
+            "qi": {
+              "valid": 1,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 1,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 1,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[16,infinity)": {
+          "rows": 0,
+          "complete_metrics": 0,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 0,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "qi": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            }
+          },
+          "metric_joint_fraction_population": null,
+          "metric_joint_fraction_complete": null
+        }
+      }
+    },
+    "nfp_5": {
+      "all_rows": 30876,
+      "excluded_aspect_missing": 2732,
+      "excluded_aspect_invalid": 0,
+      "positive_aspect_total": {
+        "rows": 28144,
+        "complete_metrics": 28144,
+        "metric_joint": 0,
+        "metric_joint_forward_false": 0,
+        "original_strict_flag_joint": 0,
+        "all_five_historical_flags_known": 0,
+        "forward_error_true": 0,
+        "forward_error_false": 28144,
+        "forward_error_unknown": 0,
+        "marginals": {
+          "vacuum_well": {
+            "valid": 28144,
+            "passes": 126,
+            "fraction_population": 0.004476975554292211,
+            "fraction_valid": 0.004476975554292211
+          },
+          "flux_compression_in_regions_of_bad_curvature": {
+            "valid": 28144,
+            "passes": 6292,
+            "fraction_population": 0.22356452529846504,
+            "fraction_valid": 0.22356452529846504
+          },
+          "qi": {
+            "valid": 28144,
+            "passes": 0,
+            "fraction_population": 0.0,
+            "fraction_valid": 0.0
+          },
+          "edge_rotational_transform_over_n_field_periods": {
+            "valid": 28144,
+            "passes": 4128,
+            "fraction_population": 0.14667424673109722,
+            "fraction_valid": 0.14667424673109722
+          },
+          "edge_magnetic_mirror_ratio": {
+            "valid": 28144,
+            "passes": 3988,
+            "fraction_population": 0.1416998294485503,
+            "fraction_valid": 0.1416998294485503
+          }
+        },
+        "metric_joint_fraction_population": 0.0,
+        "metric_joint_fraction_complete": 0.0
+      },
+      "bins": {
+        "[0,4)": {
+          "rows": 24,
+          "complete_metrics": 24,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 24,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 24,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 24,
+              "passes": 23,
+              "fraction_population": 0.9583333333333334,
+              "fraction_valid": 0.9583333333333334
+            },
+            "qi": {
+              "valid": 24,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 24,
+              "passes": 1,
+              "fraction_population": 0.041666666666666664,
+              "fraction_valid": 0.041666666666666664
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 24,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[4,6)": {
+          "rows": 878,
+          "complete_metrics": 878,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 878,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 878,
+              "passes": 9,
+              "fraction_population": 0.010250569476082005,
+              "fraction_valid": 0.010250569476082005
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 878,
+              "passes": 608,
+              "fraction_population": 0.6924829157175398,
+              "fraction_valid": 0.6924829157175398
+            },
+            "qi": {
+              "valid": 878,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 878,
+              "passes": 410,
+              "fraction_population": 0.46697038724373574,
+              "fraction_valid": 0.46697038724373574
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 878,
+              "passes": 1,
+              "fraction_population": 0.0011389521640091116,
+              "fraction_valid": 0.0011389521640091116
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[6,8)": {
+          "rows": 6065,
+          "complete_metrics": 6065,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 6065,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 6065,
+              "passes": 73,
+              "fraction_population": 0.012036273701566364,
+              "fraction_valid": 0.012036273701566364
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 6065,
+              "passes": 2014,
+              "fraction_population": 0.3320692497938994,
+              "fraction_valid": 0.3320692497938994
+            },
+            "qi": {
+              "valid": 6065,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 6065,
+              "passes": 1007,
+              "fraction_population": 0.1660346248969497,
+              "fraction_valid": 0.1660346248969497
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 6065,
+              "passes": 3,
+              "fraction_population": 0.000494641384995878,
+              "fraction_valid": 0.000494641384995878
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[8,10)": {
+          "rows": 15282,
+          "complete_metrics": 15282,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 15282,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 15282,
+              "passes": 43,
+              "fraction_population": 0.002813767831435676,
+              "fraction_valid": 0.002813767831435676
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 15282,
+              "passes": 2521,
+              "fraction_population": 0.16496531867556602,
+              "fraction_valid": 0.16496531867556602
+            },
+            "qi": {
+              "valid": 15282,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 15282,
+              "passes": 1917,
+              "fraction_population": 0.1254416961130742,
+              "fraction_valid": 0.1254416961130742
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 15282,
+              "passes": 978,
+              "fraction_population": 0.06399685904986259,
+              "fraction_valid": 0.06399685904986259
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[10,12)": {
+          "rows": 5894,
+          "complete_metrics": 5894,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 5894,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 5894,
+              "passes": 1,
+              "fraction_population": 0.00016966406515100103,
+              "fraction_valid": 0.00016966406515100103
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 5894,
+              "passes": 1126,
+              "fraction_population": 0.19104173736002714,
+              "fraction_valid": 0.19104173736002714
+            },
+            "qi": {
+              "valid": 5894,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 5894,
+              "passes": 792,
+              "fraction_population": 0.13437393959959282,
+              "fraction_valid": 0.13437393959959282
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 5894,
+              "passes": 3006,
+              "fraction_population": 0.5100101798439091,
+              "fraction_valid": 0.5100101798439091
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[12,16)": {
+          "rows": 1,
+          "complete_metrics": 1,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 1,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 1,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 1,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "qi": {
+              "valid": 1,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 1,
+              "passes": 1,
+              "fraction_population": 1.0,
+              "fraction_valid": 1.0
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 1,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[16,infinity)": {
+          "rows": 0,
+          "complete_metrics": 0,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 0,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "qi": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            }
+          },
+          "metric_joint_fraction_population": null,
+          "metric_joint_fraction_complete": null
+        }
+      }
+    },
+    "nfp_1_to_5": {
+      "all_rows": 182221,
+      "excluded_aspect_missing": 23536,
+      "excluded_aspect_invalid": 0,
+      "positive_aspect_total": {
+        "rows": 158685,
+        "complete_metrics": 158685,
+        "metric_joint": 0,
+        "metric_joint_forward_false": 0,
+        "original_strict_flag_joint": 0,
+        "all_five_historical_flags_known": 0,
+        "forward_error_true": 0,
+        "forward_error_false": 158685,
+        "forward_error_unknown": 0,
+        "marginals": {
+          "vacuum_well": {
+            "valid": 158685,
+            "passes": 7430,
+            "fraction_population": 0.046822320950310366,
+            "fraction_valid": 0.046822320950310366
+          },
+          "flux_compression_in_regions_of_bad_curvature": {
+            "valid": 158685,
+            "passes": 37791,
+            "fraction_population": 0.23815105397485584,
+            "fraction_valid": 0.23815105397485584
+          },
+          "qi": {
+            "valid": 158685,
+            "passes": 9,
+            "fraction_population": 5.6716135740618206e-05,
+            "fraction_valid": 5.6716135740618206e-05
+          },
+          "edge_rotational_transform_over_n_field_periods": {
+            "valid": 158685,
+            "passes": 56686,
+            "fraction_population": 0.3572234300658537,
+            "fraction_valid": 0.3572234300658537
+          },
+          "edge_magnetic_mirror_ratio": {
+            "valid": 158685,
+            "passes": 21709,
+            "fraction_population": 0.13680562119923118,
+            "fraction_valid": 0.13680562119923118
+          }
+        },
+        "metric_joint_fraction_population": 0.0,
+        "metric_joint_fraction_complete": 0.0
+      },
+      "bins": {
+        "[0,4)": {
+          "rows": 388,
+          "complete_metrics": 388,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 388,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 388,
+              "passes": 48,
+              "fraction_population": 0.12371134020618557,
+              "fraction_valid": 0.12371134020618557
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 388,
+              "passes": 259,
+              "fraction_population": 0.6675257731958762,
+              "fraction_valid": 0.6675257731958762
+            },
+            "qi": {
+              "valid": 388,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 388,
+              "passes": 128,
+              "fraction_population": 0.32989690721649484,
+              "fraction_valid": 0.32989690721649484
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 388,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[4,6)": {
+          "rows": 14532,
+          "complete_metrics": 14532,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 14532,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 14532,
+              "passes": 895,
+              "fraction_population": 0.06158821910266997,
+              "fraction_valid": 0.06158821910266997
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 14532,
+              "passes": 4647,
+              "fraction_population": 0.31977704376548305,
+              "fraction_valid": 0.31977704376548305
+            },
+            "qi": {
+              "valid": 14532,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 14532,
+              "passes": 8865,
+              "fraction_population": 0.6100330305532617,
+              "fraction_valid": 0.6100330305532617
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 14532,
+              "passes": 106,
+              "fraction_population": 0.007294247178640243,
+              "fraction_valid": 0.007294247178640243
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[6,8)": {
+          "rows": 34292,
+          "complete_metrics": 34292,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 34292,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 34292,
+              "passes": 1519,
+              "fraction_population": 0.044296045724950425,
+              "fraction_valid": 0.044296045724950425
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 34292,
+              "passes": 11236,
+              "fraction_population": 0.32765659629068006,
+              "fraction_valid": 0.32765659629068006
+            },
+            "qi": {
+              "valid": 34292,
+              "passes": 8,
+              "fraction_population": 0.00023329056339671062,
+              "fraction_valid": 0.00023329056339671062
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 34292,
+              "passes": 13814,
+              "fraction_population": 0.40283448034527003,
+              "fraction_valid": 0.40283448034527003
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 34292,
+              "passes": 531,
+              "fraction_population": 0.015484661145456666,
+              "fraction_valid": 0.015484661145456666
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[8,10)": {
+          "rows": 80455,
+          "complete_metrics": 80455,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 80455,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 80455,
+              "passes": 4630,
+              "fraction_population": 0.05754769747063576,
+              "fraction_valid": 0.05754769747063576
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 80455,
+              "passes": 18234,
+              "fraction_population": 0.22663600770617115,
+              "fraction_valid": 0.22663600770617115
+            },
+            "qi": {
+              "valid": 80455,
+              "passes": 1,
+              "fraction_population": 1.2429308308992605e-05,
+              "fraction_valid": 1.2429308308992605e-05
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 80455,
+              "passes": 23522,
+              "fraction_population": 0.29236219004412406,
+              "fraction_valid": 0.29236219004412406
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 80455,
+              "passes": 8814,
+              "fraction_population": 0.10955192343546082,
+              "fraction_valid": 0.10955192343546082
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[10,12)": {
+          "rows": 28984,
+          "complete_metrics": 28984,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 28984,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 28984,
+              "passes": 334,
+              "fraction_population": 0.011523599227159812,
+              "fraction_valid": 0.011523599227159812
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 28984,
+              "passes": 3401,
+              "fraction_population": 0.11734060171128899,
+              "fraction_valid": 0.11734060171128899
+            },
+            "qi": {
+              "valid": 28984,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 28984,
+              "passes": 10348,
+              "fraction_population": 0.3570245652773944,
+              "fraction_valid": 0.3570245652773944
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 28984,
+              "passes": 12252,
+              "fraction_population": 0.422715981231024,
+              "fraction_valid": 0.422715981231024
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[12,16)": {
+          "rows": 34,
+          "complete_metrics": 34,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 34,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 34,
+              "passes": 4,
+              "fraction_population": 0.11764705882352941,
+              "fraction_valid": 0.11764705882352941
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 34,
+              "passes": 14,
+              "fraction_population": 0.4117647058823529,
+              "fraction_valid": 0.4117647058823529
+            },
+            "qi": {
+              "valid": 34,
+              "passes": 0,
+              "fraction_population": 0.0,
+              "fraction_valid": 0.0
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 34,
+              "passes": 9,
+              "fraction_population": 0.2647058823529412,
+              "fraction_valid": 0.2647058823529412
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 34,
+              "passes": 6,
+              "fraction_population": 0.17647058823529413,
+              "fraction_valid": 0.17647058823529413
+            }
+          },
+          "metric_joint_fraction_population": 0.0,
+          "metric_joint_fraction_complete": 0.0
+        },
+        "[16,infinity)": {
+          "rows": 0,
+          "complete_metrics": 0,
+          "metric_joint": 0,
+          "metric_joint_forward_false": 0,
+          "original_strict_flag_joint": 0,
+          "all_five_historical_flags_known": 0,
+          "forward_error_true": 0,
+          "forward_error_false": 0,
+          "forward_error_unknown": 0,
+          "marginals": {
+            "vacuum_well": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "flux_compression_in_regions_of_bad_curvature": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "qi": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_rotational_transform_over_n_field_periods": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            },
+            "edge_magnetic_mirror_ratio": {
+              "valid": 0,
+              "passes": 0,
+              "fraction_population": null,
+              "fraction_valid": null
+            }
+          },
+          "metric_joint_fraction_population": null,
+          "metric_joint_fraction_complete": null
+        }
+      }
+    }
+  },
+  "checks": [
+    "Primary counts and all marginals reproduce.",
+    "Global valid QI/pass counts reproduce.",
+    "Bin counters sum to separately accumulated cohort counters.",
+    "Pooled NFP counts sum to individual cohorts."
+  ],
+  "limitations": [
+    "Stored labels await issue112 producer/fidelity controls.",
+    "Unknown/inapplicable historical flags are not demonstrated solver failures.",
+    "No independent-family feasibility probabilities or native confirmation."
+  ]
+}

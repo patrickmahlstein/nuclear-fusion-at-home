@@ -53,3 +53,6 @@ optimization or requirement relaxation follows from this record.
 
 Data attribution: Proxima Fusion; pinned Hugging Face dataset card declares MIT.
 Only projected-column manifests and derived summaries are redistributed here.
+
+[Exploratory aspect/NFP context](aspect-context/README.md) records the later
+A-REQ-018 follow-up under unchanged original bounds; no admitted designs.

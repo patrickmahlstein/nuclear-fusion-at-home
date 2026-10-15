@@ -1,0 +1,23 @@
+{
+  "parent_evidence_commit": "0efdc425c56d55cbc5d09090888c9748650d77ce",
+  "dataset_revision": "8da71572eb63ce93e77ce89bec0d7c30b7eba89e",
+  "range_manifest_sha256": "15c98aade58e3e0d34b55a1d36b0f7733a0c4fbef5b81293858688bf97cbc403",
+  "primary_report_sha256": "31c519c9fa166d0dc2e776a15f22389f292eb1786018229a659f2479e293fb96",
+  "protocol_comment": "https://github.com/DrWorkhard/nuclear-fusion-at-home/issues/113#issuecomment-6184923865",
+  "reader_sha256": "25e96145b76b860961b8a6e0a2e4ad6e047d498a08321a2da741c5a23a30316f",
+  "analysis_sha256": "38bede90fac8e92c724fa7fe64ebef755037821d47abc3fdee1c8d180ea4449d",
+  "independent_original_local_sha256": "d7ec258caecda68ef2d2b62573c2faac9412f2da29a5255d2b42da2e248fef58",
+  "independent_portable_sha256": "8ab5958eeb4875f517a7a67eaf64dd09b6632931cc58da00686b58ef2cfa34a8",
+  "portability_change": "Only cache/expected/output arguments and UTF-8 output changed; arithmetic output apart from script hash is identical.",
+  "new_download_bytes": 0,
+  "input_range_bytes": 21510090,
+  "interpretation": "Exploratory stored-label diagnostic; no admission or physical infeasibility claim.",
+  "python": "3.14.8 (main, Sep 30 2026, 17:55:09) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "pyarrow": "26.0.0",
+  "verification_pass_deviation": {
+    "planned": "One analysis and one independent arithmetic/data-aggregation check.",
+    "actual": "Two analysis passes and two independent arithmetic passes.",
+    "reason": "One extra pass checked the portable independent wrapper; one checked deterministic replay against the separately reacquired cache.",
+    "effect": "No new data, threshold, population, metric evaluation or selection. Individual passes stayed below the three-minute ceiling and outputs below1MiB. Exploratory context only."
+  }
+}
