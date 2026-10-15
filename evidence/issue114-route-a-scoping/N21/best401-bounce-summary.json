@@ -1,0 +1,129 @@
+{
+ "benefit_transfer_confirmed": false,
+ "coil_mapping_checks": {
+  "position": 6.207205349076974e-16,
+  "tangent": 3.8480823230131745e-15
+ },
+ "coil_narrow_score": null,
+ "coil_wide_score": null,
+ "completed": true,
+ "current_A": 290082.3509291598,
+ "deadline_met": true,
+ "elapsed_s": 15.225251611089334,
+ "frozen_current": true,
+ "ideal_narrow_score": null,
+ "ideal_wide_score": null,
+ "kind": "target-launch-coil-bounce",
+ "limitation": "target launch labels are not verified realized flux coordinates",
+ "physical_admission": false,
+ "provenance": {
+  "external_repositories": {},
+  "host": {
+   "captured_at": "2026-10-15T09:01:23.287455+00:00",
+   "logical_cpu_count": 8,
+   "machine": "x86_64",
+   "platform": "macOS-15.7.9-x86_64-i386-64bit",
+   "processor": "i386",
+   "python": "3.12.15 (main, Oct  9 2026, 15:10:54) [Clang 22.1.3 ]",
+   "python_executable": "<scratch>/native/env/bin/python"
+  },
+  "repository": {
+   "available": true,
+   "branch": "contribution/target-intake",
+   "commit": "554564a8606cd23754c03ee795d2f42f811a4499",
+   "dirty": false,
+   "path": "<workspace>/worktrees/claude"
+  },
+  "schema_version": 1
+ },
+ "resolution": [
+  801,
+  16,
+  2
+ ],
+ "sources_after": {
+  "<workspace>/worktrees/claude/results/n21-best-input-401.json": "deca897168dc7d56e80d990beebecad27cf23f4cd7b2739dde8585f8a9a48a9c",
+  "<workspace>/worktrees/claude/results/n21-best401/wout.nc": "412ee54d7abe7899a3f2ecbc425857dc5aa05420b7d78e058dd7d1abb1bbf3a4",
+  "<workspace>/worktrees/claude/results/n21-spec/seed.json": "8339bd221c76c5c1ef5522ee099cd019a9273c6944dc767befb813c2f8a3cf2c",
+  "<workspace>/worktrees/claude/scripts/measure_coil_bounce.py": "e0a8bb8199bf72412b4c9d2ecef787c7709c1f264a262bac0646220fbc5c6189",
+  "<workspace>/worktrees/claude/src/fusion_baselines/__init__.py": "8d36f4ca6cbd9c95d1286a5f7914db91f020133819f8e39eb5aba6c405cc1390",
+  "<workspace>/worktrees/claude/src/fusion_baselines/acceptance_v2.py": "13623521401d818490fa3834b1b5d06b2be94418b3e87342183718c68362a351",
+  "<workspace>/worktrees/claude/src/fusion_baselines/bounce_action.py": "2b795d832228aad3b8badb3397fbe1895d668f250f81d27257f27bd395bbbd06",
+  "<workspace>/worktrees/claude/src/fusion_baselines/boundary_control_metrics.py": "7ab1d0a59d5a0a0eb4569d87975dae49f5b9316ac8f0cca131b0a2eb7d37eebb",
+  "<workspace>/worktrees/claude/src/fusion_baselines/certified_selection.py": "78918e3d86f289b1a6cdf4971b55f9e51066504ecd17b00db20d4e953a2e00b9",
+  "<workspace>/worktrees/claude/src/fusion_baselines/clear_coil_field_audit.py": "ceb6584e9137e75b67a67b7a24ae2ab1aea01aa85b8f5748952dfbb2f5f802dd",
+  "<workspace>/worktrees/claude/src/fusion_baselines/coil_bounce.py": "8c2f599c2e6ca1db373e536ad6e9743a9f8f2d609bab7f55d52922f1fc90b6e2",
+  "<workspace>/worktrees/claude/src/fusion_baselines/coil_check.py": "9a1638b6addebce9266cbe27c2b8c1f8ac07385209b2d49017aad74b73c5e023",
+  "<workspace>/worktrees/claude/src/fusion_baselines/coil_fit.py": "dfeeea05b9a134e3d1c2127c63e80d1a6aaf26b640e78b4173d40a74b116a2c6",
+  "<workspace>/worktrees/claude/src/fusion_baselines/coil_trajectory.py": "e7401369daa4b68432502c0b1eb18a404e1b357d777d37fc8336a1a88acc9272",
+  "<workspace>/worktrees/claude/src/fusion_baselines/coupled_coil_audit.py": "3f9a5cee83447bc61d0cd633cdaac13e90a09f2bee42b6c908166d0f42476ba5",
+  "<workspace>/worktrees/claude/src/fusion_baselines/curvature_bounds.py": "7d7f151b4fac4ccbc2bbfb0b3a6b4e311543796d722313a4af4f6c3358886128",
+  "<workspace>/worktrees/claude/src/fusion_baselines/documentation.py": "7fcfd5475aface32114e5845ff997edb2926f541f823d566d29185da47116aeb",
+  "<workspace>/worktrees/claude/src/fusion_baselines/documentation_policy.py": "72de8a9b9321992af6655b19c6bd30c81d50263ba5918c23bb8887a5d6d91dc3",
+  "<workspace>/worktrees/claude/src/fusion_baselines/filament_field.py": "dde24ee7a76bf9e8f4eb0a7127acc770c7ea6df737ee7bbe3e1e51a162b527d0",
+  "<workspace>/worktrees/claude/src/fusion_baselines/provenance.py": "9960f5021f8b1d80e5d524df77df986cf889e7db8391e167ecb00776ae7faa29",
+  "<workspace>/worktrees/claude/src/fusion_baselines/realized_field.py": "d071f01f818e0294686124f9756f564362d2f2dcfdaf9e1ecf3230eaea79e5b0",
+  "<workspace>/worktrees/claude/src/fusion_baselines/reference_wout.py": "f11823877c64f41f600afa133be087f0ea25dafc757215d7b07f3faae765032f",
+  "<workspace>/worktrees/claude/src/fusion_baselines/sparse_coil_surface.py": "f440527bce0d13144a1cc077a2e3e9a035f38ae3499b00a954526bfcebf81afe",
+  "<workspace>/worktrees/claude/src/fusion_baselines/vmec_trace.py": "ce2d456657ff99ba1fb1d85cdf165b2a1597c4034693aed9a21bb13b4854c880",
+  "<workspace>/worktrees/claude/src/fusion_baselines/wout_build.py": "022317ee6b257a226224315df224d3ddd0c3b633616dffaa3d206a4bbe94e1c4",
+  "<workspace>/worktrees/claude/src/fusion_baselines/wout_target.py": "af4e21610decc8fdfef3d484aaa068d2232d8a6d4983b470f9e46bf514579823"
+ },
+ "sources_before": {
+  "<workspace>/worktrees/claude/results/n21-best-input-401.json": "deca897168dc7d56e80d990beebecad27cf23f4cd7b2739dde8585f8a9a48a9c",
+  "<workspace>/worktrees/claude/results/n21-best401/wout.nc": "412ee54d7abe7899a3f2ecbc425857dc5aa05420b7d78e058dd7d1abb1bbf3a4",
+  "<workspace>/worktrees/claude/results/n21-spec/seed.json": "8339bd221c76c5c1ef5522ee099cd019a9273c6944dc767befb813c2f8a3cf2c",
+  "<workspace>/worktrees/claude/scripts/measure_coil_bounce.py": "e0a8bb8199bf72412b4c9d2ecef787c7709c1f264a262bac0646220fbc5c6189",
+  "<workspace>/worktrees/claude/src/fusion_baselines/__init__.py": "8d36f4ca6cbd9c95d1286a5f7914db91f020133819f8e39eb5aba6c405cc1390",
+  "<workspace>/worktrees/claude/src/fusion_baselines/acceptance_v2.py": "13623521401d818490fa3834b1b5d06b2be94418b3e87342183718c68362a351",
+  "<workspace>/worktrees/claude/src/fusion_baselines/bounce_action.py": "2b795d832228aad3b8badb3397fbe1895d668f250f81d27257f27bd395bbbd06",
+  "<workspace>/worktrees/claude/src/fusion_baselines/boundary_control_metrics.py": "7ab1d0a59d5a0a0eb4569d87975dae49f5b9316ac8f0cca131b0a2eb7d37eebb",
+  "<workspace>/worktrees/claude/src/fusion_baselines/certified_selection.py": "78918e3d86f289b1a6cdf4971b55f9e51066504ecd17b00db20d4e953a2e00b9",
+  "<workspace>/worktrees/claude/src/fusion_baselines/clear_coil_field_audit.py": "ceb6584e9137e75b67a67b7a24ae2ab1aea01aa85b8f5748952dfbb2f5f802dd",
+  "<workspace>/worktrees/claude/src/fusion_baselines/coil_bounce.py": "8c2f599c2e6ca1db373e536ad6e9743a9f8f2d609bab7f55d52922f1fc90b6e2",
+  "<workspace>/worktrees/claude/src/fusion_baselines/coil_check.py": "9a1638b6addebce9266cbe27c2b8c1f8ac07385209b2d49017aad74b73c5e023",
+  "<workspace>/worktrees/claude/src/fusion_baselines/coil_fit.py": "dfeeea05b9a134e3d1c2127c63e80d1a6aaf26b640e78b4173d40a74b116a2c6",
+  "<workspace>/worktrees/claude/src/fusion_baselines/coil_trajectory.py": "e7401369daa4b68432502c0b1eb18a404e1b357d777d37fc8336a1a88acc9272",
+  "<workspace>/worktrees/claude/src/fusion_baselines/coupled_coil_audit.py": "3f9a5cee83447bc61d0cd633cdaac13e90a09f2bee42b6c908166d0f42476ba5",
+  "<workspace>/worktrees/claude/src/fusion_baselines/curvature_bounds.py": "7d7f151b4fac4ccbc2bbfb0b3a6b4e311543796d722313a4af4f6c3358886128",
+  "<workspace>/worktrees/claude/src/fusion_baselines/documentation.py": "7fcfd5475aface32114e5845ff997edb2926f541f823d566d29185da47116aeb",
+  "<workspace>/worktrees/claude/src/fusion_baselines/documentation_policy.py": "72de8a9b9321992af6655b19c6bd30c81d50263ba5918c23bb8887a5d6d91dc3",
+  "<workspace>/worktrees/claude/src/fusion_baselines/filament_field.py": "dde24ee7a76bf9e8f4eb0a7127acc770c7ea6df737ee7bbe3e1e51a162b527d0",
+  "<workspace>/worktrees/claude/src/fusion_baselines/provenance.py": "9960f5021f8b1d80e5d524df77df986cf889e7db8391e167ecb00776ae7faa29",
+  "<workspace>/worktrees/claude/src/fusion_baselines/realized_field.py": "d071f01f818e0294686124f9756f564362d2f2dcfdaf9e1ecf3230eaea79e5b0",
+  "<workspace>/worktrees/claude/src/fusion_baselines/reference_wout.py": "f11823877c64f41f600afa133be087f0ea25dafc757215d7b07f3faae765032f",
+  "<workspace>/worktrees/claude/src/fusion_baselines/sparse_coil_surface.py": "f440527bce0d13144a1cc077a2e3e9a035f38ae3499b00a954526bfcebf81afe",
+  "<workspace>/worktrees/claude/src/fusion_baselines/vmec_trace.py": "ce2d456657ff99ba1fb1d85cdf165b2a1597c4034693aed9a21bb13b4854c880",
+  "<workspace>/worktrees/claude/src/fusion_baselines/wout_build.py": "022317ee6b257a226224315df224d3ddd0c3b633616dffaa3d206a4bbe94e1c4",
+  "<workspace>/worktrees/claude/src/fusion_baselines/wout_target.py": "af4e21610decc8fdfef3d484aaa068d2232d8a6d4983b470f9e46bf514579823"
+ },
+ "target_id": "n21-well-repair.v0",
+ "target_spec_sha256": "c7c34a99cab7a4bd3aa729580a9d8c2392aed9bdb45f1bc776f045c67085dec2",
+ "surface_errors": [
+  [
+   0.1,
+   3,
+   4
+  ],
+  [
+   0.25,
+   6,
+   1
+  ],
+  [
+   0.5,
+   6,
+   1
+  ],
+  [
+   0.75,
+   7,
+   0
+  ],
+  [
+   0.9,
+   7,
+   0
+  ]
+ ]
+}

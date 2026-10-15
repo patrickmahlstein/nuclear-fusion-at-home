@@ -1,0 +1,3 @@
+0 {'n_function_evals': 0, 'n_gradient_evals': 0, 'objective': Array(13.80155596, dtype=float64, weak_type=True), 'feas': Array(1.65654007, dtype=float64)}
+1 {'n_function_evals': 800, 'n_gradient_evals': 0, 'objective': Array(12.05097521, dtype=float64, weak_type=True), 'feas': Array(0.9866681, dtype=float64)}
+2 {'n_function_evals': 1700, 'n_gradient_evals': 0, 'objective': Array(12.2147821, dtype=float64, weak_type=True), 'feas': Array(0.27972975, dtype=float64)}

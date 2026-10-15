@@ -1,0 +1,3 @@
+0630a447fcfdc6822c7059d2db63d8539d99b4f726ac97dba79bc2aec2920ad9  <workspace>/coordination/logs/claude/N19/PREREG.md
+462d4aafc1a0cd3eb7b2d7cd3a7916c9899ed279306792b1c5e50736aee4f1a8  <workspace>/coordination/logs/claude/N19/fd.py
+ba1ca16754efa7d3b42ef26fb3b12b51176cc734cb29db8ac1ae9f83d46835ee  <workspace>/coordination/logs/claude/N19/plasma_metrics.py

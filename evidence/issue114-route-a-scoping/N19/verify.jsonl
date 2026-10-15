@@ -1,0 +1,3 @@
+{"tag": "step0.5", "scale": 0.5, "vacuum_well": -0.006323880212098073, "flux_compression": 1.397590736536711, "aspect": 9.99528054873159, "iota_edge_per_fp": 0.24983422140076578, "ns": 99, "ier": 0, "volume": 0.1894251055388272}
+{"tag": "step1.0", "scale": 1.0, "vacuum_well": 0.00270821825869724, "flux_compression": 1.348229582650716, "aspect": 9.994267970259433, "iota_edge_per_fp": 0.25006344070057107, "ns": 99, "ier": 0, "volume": 0.18881464097168188}
+{"tag": "step2.0", "scale": 2.0, "vacuum_well": 0.019300257091919903, "flux_compression": 1.3056106030144143, "aspect": 9.99002219664068, "iota_edge_per_fp": 0.25272062345377666, "ns": 99, "ier": 0, "volume": 0.18764851138770583}

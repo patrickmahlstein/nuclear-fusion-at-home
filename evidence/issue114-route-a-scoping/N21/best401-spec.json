@@ -1,0 +1,24 @@
+{
+  "schema": "coil-target-spec/v1",
+  "target_id": "n21-well-repair.v0",
+  "input": {
+    "path": "results/n21-best-input-401.json",
+    "sha256": "deca897168dc7d56e80d990beebecad27cf23f4cd7b2739dde8585f8a9a48a9c"
+  },
+  "wout": {
+    "sha256": "412ee54d7abe7899a3f2ecbc425857dc5aa05420b7d78e058dd7d1abb1bbf3a4",
+    "vmecpp": "0.8.0"
+  },
+  "B2": 1.583190590720225,
+  "B2_measured_32": 1.583190590720225,
+  "flux": -0.03141592653589793,
+  "seed": {
+    "snapshot_sha256": "8339bd221c76c5c1ef5522ee099cd019a9273c6944dc767befb813c2f8a3cf2c",
+    "current_A": 290082.3509291598,
+    "origin": {
+      "candidate": "submissions/length-headroom-six-coil/candidate.json",
+      "sha256": "249d6668bdfa9d91d4164d7008adf4da17f1663e3e2a98c76b083a051db13c10"
+    }
+  },
+  "note": "errors against different targets are not directly comparable"
+}
