@@ -1,0 +1,4 @@
+0 {'n_function_evals': 0, 'n_gradient_evals': 0, 'objective': Array(15.07925375, dtype=float64, weak_type=True), 'feas': Array(1.96630366, dtype=float64)}
+1 {'n_function_evals': 800, 'n_gradient_evals': 0, 'objective': Array(14.26521446, dtype=float64, weak_type=True), 'feas': Array(0.64452254, dtype=float64)}
+2 {'n_function_evals': 1700, 'n_gradient_evals': 0, 'objective': Array(14.00784897, dtype=float64, weak_type=True), 'feas': Array(0.51992736, dtype=float64)}
+3 {'n_function_evals': 2700, 'n_gradient_evals': 0, 'objective': Array(13.87962425, dtype=float64, weak_type=True), 'feas': Array(0.71070037, dtype=float64)}

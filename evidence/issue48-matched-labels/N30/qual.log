@@ -1,0 +1,22 @@
+{"s": 0.1, "theta": 0.0, "sigma": 0.1003, "s_real": 0.1, "matched": true, "star": true, "s_real_120": 0.1, "s_real_tol11": 0.1}
+{"s": 0.1, "theta": 1.5708, "sigma": 0.09922, "s_real": 0.1, "matched": true, "star": true, "s_real_120": 0.1, "s_real_tol11": 0.1}
+{"s": 0.1, "theta": 3.14159, "sigma": 0.10169, "s_real": 0.1, "matched": true, "star": true, "s_real_120": 0.1, "s_real_tol11": 0.1}
+{"s": 0.1, "theta": 4.71239, "sigma": 0.09922, "s_real": 0.1, "matched": true, "star": true, "s_real_120": 0.1, "s_real_tol11": 0.1}
+{"s": 0.25, "theta": 0.0, "sigma": 0.25142, "s_real": 0.25, "matched": true, "star": true, "s_real_120": 0.25, "s_real_tol11": 0.25}
+{"s": 0.25, "theta": 1.5708, "sigma": 0.24775, "s_real": 0.25, "matched": true, "star": true, "s_real_120": 0.25, "s_real_tol11": 0.25}
+{"s": 0.25, "theta": 3.14159, "sigma": 0.25506, "s_real": 0.25, "matched": true, "star": true, "s_real_120": 0.25, "s_real_tol11": 0.25}
+{"s": 0.25, "theta": 4.71239, "sigma": 0.24775, "s_real": 0.25, "matched": true, "star": true, "s_real_120": 0.25, "s_real_tol11": 0.25}
+{"s": 0.5, "theta": 0.0, "sigma": 0.50983, "s_real": 0.5, "matched": true, "star": true, "s_real_120": 0.49978, "s_real_tol11": 0.5}
+{"s": 0.5, "theta": 1.5708, "sigma": 0.49746, "s_real": 0.5, "matched": true, "star": true, "s_real_120": 0.49959, "s_real_tol11": 0.5}
+{"s": 0.5, "theta": 3.14159, "sigma": 0.51087, "s_real": 0.5, "matched": true, "star": true, "s_real_120": 0.49953, "s_real_tol11": 0.5}
+{"s": 0.5, "theta": 4.71239, "sigma": 0.49761, "s_real": 0.5, "matched": true, "star": true, "s_real_120": 0.49981, "s_real_tol11": 0.5}
+{"s": 0.75, "theta": 0.0, "sigma": 0.79358, "s_real": 0.75, "matched": true, "star": true, "s_real_120": 0.75, "s_real_tol11": 0.75}
+{"s": 0.75, "theta": 1.5708, "sigma": 0.77027, "s_real": 0.75, "matched": true, "star": true, "s_real_120": 0.74999, "s_real_tol11": 0.75}
+{"s": 0.75, "theta": 3.14159, "sigma": 0.78404, "s_real": 0.75, "matched": true, "star": true, "s_real_120": 0.74999, "s_real_tol11": 0.75}
+{"s": 0.75, "theta": 4.71239, "sigma": 0.77027, "s_real": 0.75, "matched": true, "star": true, "s_real_120": 0.74999, "s_real_tol11": 0.75}
+{"s": 0.9, "theta": 0.0, "sigma": 0.999, "s_real": 0.86931, "matched": false, "star": true, "s_real_120": 0.86915, "s_real_tol11": 0.86931}
+{"s": 0.9, "theta": 1.5708, "sigma": 0.999, "s_real": 0.86902, "matched": false, "star": true, "s_real_120": 1.20316, "s_real_tol11": 1.19965}
+{"s": 0.9, "theta": 3.14159, "sigma": 0.999, "s_real": 0.87105, "matched": false, "star": true, "s_real_120": 0.8718, "s_real_tol11": 0.95759}
+{"s": 0.9, "theta": 4.71239, "sigma": 0.999, "s_real": 0.87233, "matched": false, "star": true, "s_real_120": 1.21343, "s_real_tol11": 0.95188}
+[{"s": 0.1, "max_cross_distance_mm": 0.030302129318693864}, {"s": 0.25, "max_cross_distance_mm": 0.04772283719975147}, {"s": 0.5, "max_cross_distance_mm": 1.6973528160584705}, {"s": 0.75, "max_cross_distance_mm": 0.08379218963413322}, {"s": 0.9, "max_cross_distance_mm": 1.6333512815285898}]
+C1 4.440892098500626e-16 seconds 2898

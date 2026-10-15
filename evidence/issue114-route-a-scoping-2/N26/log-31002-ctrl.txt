@@ -1,0 +1,9 @@
+Optimization terminated successfully.
+         Current function value: 1.524e-03
+         Iterations: 4
+         Current function value: 3.258e-01
+         Iterations: 200
+Optimization terminated successfully.
+         Current function value: 4.985e-04
+         Iterations: 4
+ctrl 31002 feas 1.341 A 9.04 log10QI -3.61 FC 1.002 W -0.1341 mirror 0.415 iota 0.119 elong 5.53 LgradB 4.47 t 229s
