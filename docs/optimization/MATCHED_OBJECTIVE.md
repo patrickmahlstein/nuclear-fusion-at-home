@@ -42,8 +42,7 @@ at coil spacing 0.0599 m against 0.06 m (unresolved) at interior weight 0.05; th
   The replicate reproduces this within 0.0003.
 - Lowering the interior weight from 0.05 to 0.02 with p = 1.25 gives 0.717, about −10% against the
   default, reproduced by a second run (0.716); within the preregistered 5% of 0.732, so "comparable".
-  At 0.01 the interior term
-  starts to cost (certified 0.731).
+  At 0.01 the interior term starts to cost (certified 0.731).
 - p = 1.5 gives −7% with no certification step.
 - p = 1 over-trades: it lowers the mean most but lets peaks and geometry bind.
 - For comparison, the best passing leaderboard entries are 0.778 (30 min, #102 arm A) and 0.761
