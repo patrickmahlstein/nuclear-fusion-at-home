@@ -8,7 +8,7 @@
 SIMSOPT's area-weighted squared flux, but v2 scores the plain per-point mean of |B·n|/|B|. Does
 fitting a matching quantity lower the worst v2 ratio at equal budget? This is exploratory, and each
 step was preregistered before running.
-[Evidence](https://github.com/pjckoch/nuclear-fusion-at-home/tree/5b0af7a4fcc0d18fc226a357724b192969975fac/evidence/matched-objective).
+[Evidence](https://github.com/pjckoch/nuclear-fusion-at-home/tree/bf622a4712e36fecd30bd70c505fb922a055f15b/evidence/matched-objective).
 
 **Method.** `fit_coils.py --flux-objective mean-abs --flux-power p` replaces the boundary term with
 ½m², where m = (mean over points of (e² + ε²)^{p/2})^{1/p}, e = B·n/|B| on the search grid and
@@ -30,7 +30,8 @@ against finite differences. The default objective, its recorded bytes and select
 | p = 1 | 0.001305 (0.725) | 0.0107 (0.821) | 0.0020 | geometry unresolved |
 | p = 1.5 | 0.001336 (0.742) | 0.0084 (0.649) | 0.0020 | **0.742** |
 | p = 1.25, certified point, run 1 / run 2 | 0.001318 (0.732) | 0.0094 (0.721) | 0.0020 | **0.732 / 0.732** |
-| p = 1.25, interior weight 0.02 | 0.001290 (0.716) | 0.0092 (0.704) | 0.0020 | **0.717** |
+| p = 1.25, interior weight 0.02, run 1 / run 2 | 0.001290 / 0.001289 (0.716) | 0.0092 (0.70) | 0.0020 | **0.717 / 0.716** |
+| p = 1.5, interior weight 0.02 | 0.001330 (0.739) | 0.0081 (0.622) | 0.0021 | 0.739 |
 | p = 1.25, interior weight 0.01, certified point | — | — | 0.0023 | 0.731 |
 
 All rows marked with a worst ratio pass v2, including continuous geometry. With p = 1.25 the final points sit
@@ -40,7 +41,8 @@ at coil spacing 0.0599 m against 0.06 m (unresolved) at interior weight 0.05; th
 - At equal budget, p = 1.25 lowers the worst v2 ratio by 8% against the paired default (0.732 vs 0.796–0.798).
   The replicate reproduces this within 0.0003.
 - Lowering the interior weight from 0.05 to 0.02 with p = 1.25 gives 0.717, about −10% against the
-  default (one run; within the preregistered 5% of 0.732, so "comparable"). At 0.01 the interior term
+  default, reproduced by a second run (0.716); within the preregistered 5% of 0.732, so "comparable".
+  At 0.01 the interior term
   starts to cost (certified 0.731).
 - p = 1.5 gives −7% with no certification step.
 - p = 1 over-trades: it lowers the mean most but lets peaks and geometry bind.
