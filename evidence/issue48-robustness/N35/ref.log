@@ -1,0 +1,4 @@
+0.25 matched 32 / 32
+0.5 matched 32 / 32
+0.75 matched 32 / 32
+{'ideal': (1.1545862891472902e-05, 15), 'coil_target_launch': (4.251004697400477e-05, 15), 'coil_matched_launch': (4.8994664848978665e-05, 15)} 4389
