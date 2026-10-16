@@ -33,8 +33,8 @@ against finite differences. The default objective, its recorded bytes and select
 | p = 1.25, interior weight 0.02 | 0.001290 (0.716) | 0.0092 (0.704) | 0.0020 | **0.717** |
 | p = 1.25, interior weight 0.01, certified point | — | — | 0.0023 | 0.731 |
 
-All rows marked with a worst ratio pass v2, including continuous geometry. With p = 1.25 the final points sit at
-coil spacing 0.0599 m against 0.06 m (unresolved); the certified point (bundle 3500) passes.
+All rows marked with a worst ratio pass v2, including continuous geometry. With p = 1.25 the final points sit
+at coil spacing 0.0599 m against 0.06 m (unresolved) at interior weight 0.05; the certified point (bundle 3500) passes.
 
 **Result.**
 - At equal budget, p = 1.25 lowers the worst v2 ratio by 8% against the paired default (0.732 vs 0.796–0.798).
