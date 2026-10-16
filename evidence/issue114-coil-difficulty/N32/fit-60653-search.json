@@ -1,0 +1,56 @@
+{
+  "bundles_attempted": 4700,
+  "bundles_completed": 4699,
+  "derivative_checks": [
+    {
+      "analytic": 0.23406999916642002,
+      "direction": "sin",
+      "error": 1.6259105534155438e-08,
+      "fd": 0.23406998290731448,
+      "h": 1.25e-06,
+      "passed": true
+    },
+    {
+      "analytic": 0.23406999916642002,
+      "direction": "sin",
+      "error": 4.984937462815253e-11,
+      "fd": 0.23406999911657064,
+      "h": 6.25e-07,
+      "passed": true
+    },
+    {
+      "analytic": 0.08259437416751333,
+      "direction": "cos",
+      "error": 4.967412592371545e-11,
+      "fd": 0.08259437411783921,
+      "h": 1.25e-06,
+      "passed": true
+    },
+    {
+      "analytic": 0.08259437416751333,
+      "direction": "cos",
+      "error": 1.94574939493819e-10,
+      "fd": 0.08259437436208827,
+      "h": 6.25e-07,
+      "passed": true
+    }
+  ],
+  "physical_admission": false,
+  "recording_format": "fusion-coil-recording-v3",
+  "search_s": 1791.4742193680722,
+  "selected": null,
+  "solver_iterations_recorded": 2686,
+  "solver_options": {
+    "ftol": 0.0,
+    "gtol": 1e-09,
+    "maxfun": 2147483647,
+    "maxiter": 2147483647,
+    "maxls": 20
+  },
+  "startup_pass": true,
+  "startup_s": 6.718142493977211,
+  "status": {
+    "error": "declared elapsed-time limit reached",
+    "reason": "budget"
+  }
+}

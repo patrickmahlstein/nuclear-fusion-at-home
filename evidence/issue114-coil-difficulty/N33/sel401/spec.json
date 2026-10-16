@@ -1,0 +1,24 @@
+{
+  "schema": "coil-target-spec/v1",
+  "target_id": "n33-sel401.v0",
+  "input": {
+    "path": "evidence/plasma-balanced-v1/selected-input-401.json",
+    "sha256": "6bec3483eaced499bafe7ee94b16aa960d219ec1fec86cc0690012f8ebdb033e"
+  },
+  "wout": {
+    "sha256": "3d5df9a4df4d5225a29e3640064ef9e14974d141223b1c29bb3dd703c521b9c7",
+    "vmecpp": "0.8.0"
+  },
+  "B2": 1.631346444458323,
+  "B2_measured_32": 1.631346444458323,
+  "flux": -0.03141592653589793,
+  "seed": {
+    "snapshot_sha256": "a44260a0b0d31a3d91f89c3c92fc7dd447129712f382714b335e883ac10e68c8",
+    "current_A": -291627.13873967994,
+    "origin": {
+      "candidate": "results/n33/seed-sel401.json",
+      "sha256": "26b7987bfb0a377ac5e3c292bba0318573970cf0238f612748b090dd2a89d2a6"
+    }
+  },
+  "note": "errors against different targets are not directly comparable"
+}

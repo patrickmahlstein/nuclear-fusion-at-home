@@ -1,0 +1,87 @@
+{
+  "kind": "vmecpp-wout",
+  "completed": true,
+  "input": {
+    "path": "results/n33/row46244-input.json",
+    "sha256": "98dfd7df9659c193711ff9ec4163bdf28d92286716f63c1b186a48c3453c2c8d"
+  },
+  "schedule": {
+    "ns_array": [
+      12,
+      25,
+      51,
+      101,
+      201,
+      401
+    ],
+    "ftol_array": [
+      1e-08,
+      1e-10,
+      1e-11,
+      1e-12,
+      1e-12,
+      1e-12
+    ],
+    "niter_array": [
+      10000,
+      10000,
+      10000,
+      10000,
+      10000,
+      10000
+    ]
+  },
+  "max_threads": 1,
+  "budget_seconds": 900,
+  "vmecpp": "0.8.0",
+  "python": "3.12.15",
+  "machine": "x86_64",
+  "provenance": {
+    "schema_version": 1,
+    "host": {
+      "captured_at": "2026-10-16T01:14:49.024420+00:00",
+      "platform": "macOS-15.7.9-x86_64-i386-64bit",
+      "machine": "x86_64",
+      "processor": "i386",
+      "python": "3.12.15 (main, Oct  9 2026, 15:10:54) [Clang 22.1.3 ]",
+      "python_executable": "<scratch>/native/env/bin/python",
+      "logical_cpu_count": 8
+    },
+    "repository": {
+      "path": "<workspace>/worktrees/claude",
+      "available": true,
+      "commit": "8849501c0b1236dac1500adee838dd4127853f8d",
+      "branch": "",
+      "dirty": false
+    },
+    "external_repositories": {}
+  },
+  "identity_note": "regenerated Wout: own identity, never an archived one",
+  "wall_seconds": 322.41195273399353,
+  "exit_code": 0,
+  "summary": {
+    "ier_flag": 0.0,
+    "ns": 401.0,
+    "nfp": 2.0,
+    "mpol": 5.0,
+    "ntor": 10.0,
+    "volume_p": 0.20339316078867398,
+    "aspect": 10.074761063414678,
+    "Rmajor_p": 1.0150607574883346,
+    "Aminor_p": 0.10075283682651388,
+    "b0": 1.298307208195452,
+    "betatotal": 0.0,
+    "wb": 0.0026734401829263048,
+    "iotaf_axis": 0.32196679794889554,
+    "iotaf_edge": 0.41712666595326797,
+    "phi_axis": -0.0,
+    "phi_edge": 0.03141592653589761,
+    "presf_axis": 0.0,
+    "presf_edge": 0.0
+  },
+  "boundary_check": "input boundary to 1e-12, 401 surfaces, edge flux to 1e-14",
+  "wout": {
+    "path": "results/n33/wout-46244/wout.nc",
+    "sha256": "23b4bf65faea2a7192fa3cca25daf9d9f75bca695915291429183c281be7ffba"
+  }
+}

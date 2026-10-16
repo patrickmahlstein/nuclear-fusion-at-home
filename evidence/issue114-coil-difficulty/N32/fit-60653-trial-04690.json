@@ -1,0 +1,64 @@
+{
+  "elapsed_s": 0.37974912801291794,
+  "elapsed_scope": "model.evaluate and post-evaluation guard; excludes trial-file writes",
+  "gradient_ref": {
+    "count": 198,
+    "offset_bytes": 14859504,
+    "sha256": "a7766b8956eefcfee52b95f08be692c886079a37cf5cfdf22a82046d01c9cf44",
+    "store": "vectors.f64"
+  },
+  "index": 4690,
+  "metrics": {
+    "area_bn_rms": 0.02501384678355688,
+    "area_mean_abs_ratio": 0.01448468246533724,
+    "area_mean_b": 1.1933511885419514,
+    "coil_distance": 0.0699542768123108,
+    "current": 309681.09643843333,
+    "current_limit_met": true,
+    "flux_normalized_raw": 0.0002864333367797847,
+    "flux_objective": 0.00022536585376354832,
+    "geometry_certified": false,
+    "geometry_penalty": 0.0390229045951522,
+    "kappa_max": [
+      9.998230045336184,
+      10.00147640843609,
+      10.03457986319137,
+      10.000175741878483,
+      10.368673037484564,
+      10.010248240103909
+    ],
+    "lengths": [
+      3.4340703756824342,
+      3.440255245723815,
+      3.207975248394593,
+      3.354097243692107,
+      3.43988328820732,
+      3.440139871024133
+    ],
+    "local_flux": 0.0014032365687346334,
+    "mean_area_jacobian": 6.226482607284839,
+    "min_b": 0.28255451259504827,
+    "normal_max": 0.15229632849648175,
+    "normal_rms": 0.02123044294231981,
+    "normalized_global_flux": 0.00019589892737819953,
+    "parameter_abs_bn_over_mean_b": 0.014176342168612131,
+    "parameter_mean_b": 1.201302591324889,
+    "raw_quadratic_flux": 0.001947931830613492,
+    "sampled_geometry_limits_met": false,
+    "scale": 3.0968109643843333,
+    "selection_value": 0.02123044294231981,
+    "surface_distance": 0.022751900022721268,
+    "unit_flux": -0.010144605821021956
+  },
+  "role": "search",
+  "search_elapsed_end_s": 1788.1305171690183,
+  "search_elapsed_start_s": 1787.7502455740469,
+  "status": "completed",
+  "value": 0.039248270448915754,
+  "x_ref": {
+    "count": 198,
+    "offset_bytes": 14857920,
+    "sha256": "449142ea7a3d0482a5a5d3fdb1669c1ed849a39cf9d6040174dbdfebb4b95096",
+    "store": "vectors.f64"
+  }
+}

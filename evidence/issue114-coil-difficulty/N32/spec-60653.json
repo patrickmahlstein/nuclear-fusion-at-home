@@ -1,0 +1,24 @@
+{
+  "schema": "coil-target-spec/v1",
+  "target_id": "dataset-row60653.v0",
+  "input": {
+    "path": "results/n32/row60653-input.json",
+    "sha256": "257f16b0901cfb4b543d672f97059b40ddc65c7e2f1134efb2735fbe211bb393"
+  },
+  "wout": {
+    "sha256": "09ee6446d343f2eeabdadccfe97ece5b817a64a86560821f44e74209fb9a39c6",
+    "vmecpp": "0.8.0"
+  },
+  "B2": 1.0922131794182581,
+  "B2_measured_32": 1.0922131794182581,
+  "flux": -0.03141592653589793,
+  "seed": {
+    "snapshot_sha256": "b7cf4b7eebd1c79ad7c91598460726816d1c9d9915d6ce632507dd9bab8764d2",
+    "current_A": 322756.01602878707,
+    "origin": {
+      "candidate": "submissions/length-headroom-six-coil/candidate.json",
+      "sha256": "249d6668bdfa9d91d4164d7008adf4da17f1663e3e2a98c76b083a051db13c10"
+    }
+  },
+  "note": "errors against different targets are not directly comparable"
+}
