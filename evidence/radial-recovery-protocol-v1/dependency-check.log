@@ -1,0 +1,4 @@
+Using Python 3.12.15 environment at: /Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst
+Checked 169 packages in 187ms
+Found 1 incompatibility
+The package `constellaration` requires `booz-xform==0.0.9`, but `0.1.0` is installed
