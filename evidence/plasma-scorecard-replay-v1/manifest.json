@@ -1,0 +1,20 @@
+{
+  "study": "C18 N23 replay, 16 October 2026",
+  "producer_commit": "60d515001562c5da713be5ec5880629c2f92aa1a",
+  "source_dirty": false,
+  "files_sha256": {
+    "comparison.json": "30c42e7ca08b34e68584070970093bd0b256f179ae3f37f16c1b61869e72f922",
+    "n23-reference.json": "f3e7a6b8c158ce5b9429869c32422048fbc2c2892752c8d73cc2c94b25722d01",
+    "report.json": "8d8afa15ed92ae7814638029d68916875bdebfe30c28c0f2525b033b5871ccf1",
+    "wout_reference401.nc": "ff10399fbacedb2754ebc6a571c76f300e29949eaae8c045dd28c070997f9423",
+    "wout_selected401.nc": "4986b8729cad9ae0e0424574c3e8c0c349193f2d4826ec997b7e9168373fc626"
+  },
+  "source_report_unchanged": true,
+  "physical_admission": false,
+  "limitations": [
+    "N23 software regression, not original76 bitwise reproduction",
+    "Seeded dataset control and ns199 sensitivity incomplete",
+    "Original pinned runtime vanished before20October; recreate separately, do not claim identical environment bytes",
+    "Original stdout/stderr and execution logs remain local; not included in this snapshot"
+  ]
+}

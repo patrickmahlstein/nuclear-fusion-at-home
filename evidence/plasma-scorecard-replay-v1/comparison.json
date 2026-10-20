@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "comparison": "unchanged exact N23 comparator",
+  "projection_sha256": "f3258c7853d98de4b441756faa7a918445f8e0241de463d6c3a17feec370e859",
+  "expected_projection_sha256": "f3258c7853d98de4b441756faa7a918445f8e0241de463d6c3a17feec370e859",
+  "differences": [],
+  "geometry": {
+    "reference401": {
+      "completed": true,
+      "tolerance": 1e-10,
+      "residuals": {
+        "surface_vs_input": 1.9984014443252818e-15,
+        "vmec_boundary_vs_input": 4.440892098500626e-16,
+        "surface_coefficient_bound": 0.0,
+        "vmec_boundary_coefficient_bound": 1.5331719861776463e-17
+      },
+      "reader_exact": true,
+      "validation_passed": true,
+      "passed": true
+    },
+    "selected401": {
+      "completed": true,
+      "tolerance": 1e-10,
+      "residuals": {
+        "surface_vs_input": 1.9984014443252818e-15,
+        "vmec_boundary_vs_input": 4.440892098500626e-16,
+        "surface_coefficient_bound": 0.0,
+        "vmec_boundary_coefficient_bound": 1.446435812378806e-17
+      },
+      "reader_exact": true,
+      "validation_passed": true,
+      "passed": true
+    }
+  },
+  "execution": {
+    "exit_code": 0,
+    "stop_reason": null,
+    "wall_seconds": 504.7377386590233,
+    "minimum_free_disk_bytes": 60386930688,
+    "output_bytes": 6427841,
+    "finished_at": "2026-10-16T05:46:37.901219+00:00"
+  },
+  "versions_match": true,
+  "physical_admission": false,
+  "limitations": "N23 software regression only; not original #76 bitwise reproduction, dataset qualification or physical acceptance"
+}
