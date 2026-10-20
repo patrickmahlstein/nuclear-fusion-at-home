@@ -1,0 +1,21 @@
+{
+  "completed": true,
+  "targets": [
+    "reference401",
+    "selected401"
+  ],
+  "radial_only": true,
+  "physical_admission": false,
+  "effective_settings": [
+    {
+      "path": "effective-settings-0.json",
+      "sha256": "c59a2f2d6e009db0506c6c29d59efb5f074b63e5a4fd60d56bf2ce8356e6279c"
+    },
+    {
+      "path": "effective-settings-1.json",
+      "sha256": "c59a2f2d6e009db0506c6c29d59efb5f074b63e5a4fd60d56bf2ce8356e6279c"
+    }
+  ],
+  "scorer_exit_code": 0,
+  "report_sha256": "6daf867b6f32e8a28e110246f3e2350928364cc59e954d30ee64208233c536c2"
+}

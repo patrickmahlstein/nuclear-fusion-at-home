@@ -1,0 +1,376 @@
+{
+  "completed": true,
+  "physical_admission": false,
+  "radial_only": true,
+  "interpretation": "Two radial settings do not establish convergence, total numerical uncertainty or scorer qualification. No new sensitivity pass/fail tolerance is applied. Official feasibility retains its normalized 0.01 tolerance; strict-bound crossings are separate diagnostics.",
+  "targets": {
+    "reference401": {
+      "metrics": {
+        "vacuum_well": {
+          "default": -0.015770174691851827,
+          "finer": -0.015743643819728544,
+          "signed_delta": 2.6530872123283616e-05,
+          "absolute_delta": 2.6530872123283616e-05,
+          "absolute_relative_delta": 0.001682344846629483
+        },
+        "flux_compression_in_regions_of_bad_curvature": {
+          "default": 1.3959066213230318,
+          "finer": 1.396706185112501,
+          "signed_delta": 0.0007995637894693264,
+          "absolute_delta": 0.0007995637894693264,
+          "absolute_relative_delta": 0.0005727917449890056
+        },
+        "minimum_normalized_magnetic_gradient_scale_length": {
+          "default": 6.140385082143553,
+          "finer": 6.140626676985678,
+          "signed_delta": 0.00024159484212571414,
+          "absolute_delta": 0.00024159484212571414,
+          "absolute_relative_delta": 3.934522654422442e-05
+        },
+        "qi": {
+          "default": 2.3755901908267097e-05,
+          "finer": 2.4020366353169345e-05,
+          "signed_delta": 2.6446444490224843e-07,
+          "absolute_delta": 2.6446444490224843e-07,
+          "absolute_relative_delta": 0.011132578587143194,
+          "default_log10": -4.624228476659297,
+          "finer_log10": -4.619420373121849
+        }
+      },
+      "benchmarks": {
+        "geometrical": {
+          "default": {
+            "objective": 5.963016494004064,
+            "feasible": false,
+            "feasibility": 1.4987748451565288,
+            "score": 0.0,
+            "normalized_violations": [
+              1.4987748451565288,
+              0.5294041245501852,
+              0.16313608723894407
+            ]
+          },
+          "finer": {
+            "objective": 5.963036787801834,
+            "feasible": false,
+            "feasibility": 1.4987748451565288,
+            "score": 0.0,
+            "normalized_violations": [
+              1.4987748451565288,
+              0.5294041245501852,
+              0.1631440880220612
+            ]
+          },
+          "feasibility_changed": false,
+          "strict_component_bound_crossings": [],
+          "official_component_tolerance_crossings": []
+        },
+        "simple_to_build_qi": {
+          "default": {
+            "objective": 6.140385082143553,
+            "feasible": false,
+            "feasibility": 0.19260329880081278,
+            "score": 0.0,
+            "normalized_violations": [
+              -0.0004900619373884752,
+              -0.0042366953132670915,
+              -0.15605711916482434,
+              0.16651487658013137,
+              0.19260329880081278
+            ]
+          },
+          "finer": {
+            "objective": 6.140626676985678,
+            "feasible": false,
+            "feasibility": 0.19260735756036684,
+            "score": 0.0,
+            "normalized_violations": [
+              -0.0004900619373884752,
+              -0.00422709437352653,
+              -0.1548550932804622,
+              0.16653320630562504,
+              0.19260735756036684
+            ]
+          },
+          "feasibility_changed": false,
+          "strict_component_bound_crossings": [],
+          "official_component_tolerance_crossings": []
+        },
+        "mhd_stable_qi": {
+          "default": {
+            "objectives": [
+              6.140385082143553,
+              9.995099380626115
+            ],
+            "feasible": false,
+            "feasibility": 0.5510073570255908,
+            "score_as_single_design_set": 0.0,
+            "normalized_violations": [
+              -0.0042366953132670915,
+              -0.3212081361883707,
+              -0.06678809873589486,
+              0.5510073570255908,
+              0.15770174691851827
+            ]
+          },
+          "finer": {
+            "objectives": [
+              6.140626676985678,
+              9.995099380626115
+            ],
+            "feasible": false,
+            "feasibility": 0.5518957612361123,
+            "score_as_single_design_set": 0.0,
+            "normalized_violations": [
+              -0.00422709437352653,
+              -0.31983439232052824,
+              -0.06677343495549992,
+              0.5518957612361123,
+              0.15743643819728542
+            ]
+          },
+          "feasibility_changed": false,
+          "strict_component_bound_crossings": [],
+          "official_component_tolerance_crossings": []
+        }
+      },
+      "default_vmec": {
+        "ns": 99,
+        "mpol": 10,
+        "ntor": 10,
+        "fsqr": 9.98740081431305e-16,
+        "fsqz": 2.741632720971346e-16,
+        "fsql": 9.435118805751584e-17,
+        "ier_flag": 0,
+        "aspect": 9.995099380626115,
+        "Aminor_p": 0.0987637025714228,
+        "Rmajor_p": 0.9871530223999699
+      },
+      "finer_vmec": {
+        "ns": 199,
+        "mpol": 10,
+        "ntor": 10,
+        "fsqr": 9.97292639512157e-16,
+        "fsqz": 2.5743033238516114e-16,
+        "fsql": 8.629544044453286e-17,
+        "ier_flag": 0,
+        "aspect": 9.995099380626115,
+        "Aminor_p": 0.0987637025714228,
+        "Rmajor_p": 0.9871530223999699
+      },
+      "default_seconds": 100.11201136700038,
+      "finer_seconds": 225.61271223699987,
+      "default_geometry": {
+        "grid": [
+          64,
+          128
+        ],
+        "surface_vs_input": 1.9984014443252818e-15,
+        "surface_coefficient_bound": 0.0,
+        "vmec_boundary_coefficient_bound": 1.5331719861776463e-17,
+        "vmec_boundary_vs_input": 4.440892098500626e-16,
+        "vmec_boundary_vs_input_theta_flipped": 0.35630031464172546
+      },
+      "finer_geometry": {
+        "grid": [
+          64,
+          128
+        ],
+        "surface_vs_input": 1.9984014443252818e-15,
+        "surface_coefficient_bound": 0.0,
+        "vmec_boundary_coefficient_bound": 1.5331719861776463e-17,
+        "vmec_boundary_vs_input": 4.440892098500626e-16,
+        "vmec_boundary_vs_input_theta_flipped": 0.35630031464172546
+      }
+    },
+    "selected401": {
+      "metrics": {
+        "vacuum_well": {
+          "default": -0.015814290836433376,
+          "finer": -0.01578691933109674,
+          "signed_delta": 2.7371505336635377e-05,
+          "absolute_delta": 2.7371505336635377e-05,
+          "absolute_relative_delta": 0.0017308082682769555
+        },
+        "flux_compression_in_regions_of_bad_curvature": {
+          "default": 1.3977388619962576,
+          "finer": 1.3985555957911926,
+          "signed_delta": 0.0008167337949349651,
+          "absolute_delta": 0.0008167337949349651,
+          "absolute_relative_delta": 0.000584325024610464
+        },
+        "minimum_normalized_magnetic_gradient_scale_length": {
+          "default": 6.138813030252202,
+          "finer": 6.138859023374307,
+          "signed_delta": 4.599312210462614e-05,
+          "absolute_delta": 4.599312210462614e-05,
+          "absolute_relative_delta": 7.4921848699367525e-06
+        },
+        "qi": {
+          "default": 2.1949074235282322e-05,
+          "finer": 2.2281008520134104e-05,
+          "signed_delta": 3.3193428485178185e-07,
+          "absolute_delta": 3.3193428485178185e-07,
+          "absolute_relative_delta": 0.015122928707316949,
+          "default_log10": -4.658583792642234,
+          "finer_log10": -4.652065155292907
+        }
+      },
+      "benchmarks": {
+        "geometrical": {
+          "default": {
+            "objective": 5.956707448417819,
+            "feasible": false,
+            "feasibility": 1.4988883614436,
+            "score": 0.0,
+            "normalized_violations": [
+              1.4988883614436,
+              0.5268436047353795,
+              0.1640939393424836
+            ]
+          },
+          "finer": {
+            "objective": 5.956728480800499,
+            "feasible": false,
+            "feasibility": 1.4988883614436,
+            "score": 0.0,
+            "normalized_violations": [
+              1.4988883614436,
+              0.5268436047353795,
+              0.1640998784407179
+            ]
+          },
+          "feasibility_changed": false,
+          "strict_component_bound_crossings": [],
+          "official_component_tolerance_crossings": []
+        },
+        "simple_to_build_qi": {
+          "default": {
+            "objective": 6.138813030252202,
+            "feasible": false,
+            "feasibility": 0.19134148968356382,
+            "score": 0.0,
+            "normalized_violations": [
+              -0.00044465542256002524,
+              -0.003087272789019657,
+              -0.16464594816055844,
+              0.17467314377425366,
+              0.19134148968356382
+            ]
+          },
+          "finer": {
+            "objective": 6.138859023374307,
+            "feasible": false,
+            "feasibility": 0.1913456961600998,
+            "score": 0.0,
+            "normalized_violations": [
+              -0.00044465542256002524,
+              -0.0030801458711384733,
+              -0.16301628882322672,
+              0.17466198139004865,
+              0.1913456961600998
+            ]
+          },
+          "feasibility_changed": false,
+          "strict_component_bound_crossings": [],
+          "official_component_tolerance_crossings": []
+        },
+        "mhd_stable_qi": {
+          "default": {
+            "objectives": [
+              6.138813030252202,
+              9.9955534457744
+            ],
+            "feasible": false,
+            "feasibility": 0.5530431799958417,
+            "score_as_single_design_set": 0.0,
+            "normalized_violations": [
+              -0.003087272789019657,
+              -0.3310239407549239,
+              -0.060261484980597024,
+              0.5530431799958417,
+              0.15814290836433376
+            ]
+          },
+          "finer": {
+            "objectives": [
+              6.138859023374307,
+              9.9955534457744
+            ],
+            "feasible": false,
+            "feasibility": 0.5539506619902139,
+            "score_as_single_design_set": 0.0,
+            "normalized_violations": [
+              -0.0030801458711384733,
+              -0.32916147294083054,
+              -0.06027041488796103,
+              0.5539506619902139,
+              0.15786919331096738
+            ]
+          },
+          "feasibility_changed": false,
+          "strict_component_bound_crossings": [],
+          "official_component_tolerance_crossings": []
+        }
+      },
+      "default_vmec": {
+        "ns": 99,
+        "mpol": 10,
+        "ntor": 10,
+        "fsqr": 9.99856600528265e-16,
+        "fsqz": 2.5677607958458784e-16,
+        "fsql": 5.2153583213429886e-17,
+        "ier_flag": 0,
+        "aspect": 9.9955534457744,
+        "Aminor_p": 0.09875975502415688,
+        "Rmajor_p": 0.9871584096355469
+      },
+      "finer_vmec": {
+        "ns": 199,
+        "mpol": 10,
+        "ntor": 10,
+        "fsqr": 9.97285684924436e-16,
+        "fsqz": 2.597824221212272e-16,
+        "fsql": 4.303821951419602e-17,
+        "ier_flag": 0,
+        "aspect": 9.9955534457744,
+        "Aminor_p": 0.09875975502415688,
+        "Rmajor_p": 0.9871584096355469
+      },
+      "default_seconds": 86.76680570399958,
+      "finer_seconds": 206.29686744399987,
+      "default_geometry": {
+        "grid": [
+          64,
+          128
+        ],
+        "surface_vs_input": 1.9984014443252818e-15,
+        "surface_coefficient_bound": 0.0,
+        "vmec_boundary_coefficient_bound": 1.446435812378806e-17,
+        "vmec_boundary_vs_input": 4.440892098500626e-16,
+        "vmec_boundary_vs_input_theta_flipped": 0.3564040201258344
+      },
+      "finer_geometry": {
+        "grid": [
+          64,
+          128
+        ],
+        "surface_vs_input": 1.9984014443252818e-15,
+        "surface_coefficient_bound": 0.0,
+        "vmec_boundary_coefficient_bound": 1.446435812378806e-17,
+        "vmec_boundary_vs_input": 4.440892098500626e-16,
+        "vmec_boundary_vs_input_theta_flipped": 0.3564040201258344
+      }
+    }
+  },
+  "fresh_matched_baseline": true,
+  "artifact_sha256": {
+    "default/report.json": "423d7f50d6f6f5fefa92425fd83bb27cb59226f9d595e02361f80846c48962a2",
+    "finer/model/report.json": "6daf867b6f32e8a28e110246f3e2350928364cc59e954d30ee64208233c536c2",
+    "finer/wrapper-result.json": "ddf93bec8ad837e1498f7ac9b4327ffd87bdf38fa489c5526d73fa20004258b9",
+    "default-effective-0.json": "abd2675741d54b189316cdd702fbe7c93f4664285942c0bb8c01ca3ad125449d",
+    "default-effective-1.json": "abd2675741d54b189316cdd702fbe7c93f4664285942c0bb8c01ca3ad125449d",
+    "finer/effective-settings-0.json": "c59a2f2d6e009db0506c6c29d59efb5f074b63e5a4fd60d56bf2ce8356e6279c",
+    "finer/effective-settings-1.json": "c59a2f2d6e009db0506c6c29d59efb5f074b63e5a4fd60d56bf2ce8356e6279c"
+  }
+}

@@ -1,0 +1,19 @@
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/geo/surfaceobjectives.py:1092: SyntaxWarning: invalid escape sequence '\l'
+  vector-Jacobian product of \lm^T * dlsqgrad_dcoils, \lm^T * dlsqgrad_dcurrents:
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/geo/surface.py:328: SyntaxWarning: invalid escape sequence '\p'
+  This function takes in a cylindrical angle :math:`\phi` and returns the cross
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/geo/surfacerzfourier.py:840: SyntaxWarning: invalid escape sequence '\p'
+  cross-section at :math:`\phi=0` being taller than it is wide.
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/objectives/constrained.py:36: SyntaxWarning: invalid escape sequence '\m'
+  \min_x f(x)
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/geo/surfacegarabedian.py:116: SyntaxWarning: invalid escape sequence '\D'
+  Return a particular :math:`\Delta_{m,n}` coefficient.
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/geo/surfacegarabedian.py:122: SyntaxWarning: invalid escape sequence '\D'
+  Set a particular :math:`\Delta_{m,n}` coefficient.
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/mhd/vmec_diagnostics.py:1554: SyntaxWarning: invalid escape sequence '\p'
+  plt.xlabel('Standard toroidal angle $\phi$')
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/mhd/profiles.py:109: SyntaxWarning: invalid escape sequence '\p'
+  Here :math:`s` is defined as :math:`s = \psi_t/\psi_{edge}`. Thus,
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/constellaration/mhd/geometry_utils.py:127: RuntimeWarning: The iteration is not making good progress, as measured by the 
+ improvement from the last ten iterations.
+  phi_perp = float(optimize.fsolve(_dot_tangent, x0=[phi_init])[0])

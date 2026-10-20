@@ -1,0 +1,14 @@
+{
+  "completed": true,
+  "physical_admission": false,
+  "manifest_sha256": "d71a6a77f46ad2dc7f2b4e9354d5083ad12ec3d07dd544e4c24f4f9629c8e084",
+  "execution": {
+    "exit_code": 0,
+    "stop_reason": null,
+    "wall_seconds": 724.6237501800001,
+    "output_bytes": 17618937,
+    "finished_at": "2026-10-20T08:55:44.229357+00:00"
+  },
+  "comparison_sha256": "f004475573e9dd729942e1f13d081ed59b2010cd355b25b32acf8d699f80c11e",
+  "wall_seconds": 724.7901324449999
+}

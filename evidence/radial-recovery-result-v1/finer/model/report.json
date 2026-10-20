@@ -1,0 +1,236 @@
+{
+  "kind": "constellaration-metrics-issue76",
+  "python": "3.12.15 (main, Oct 13 2026, 17:19:37) [Clang 21.1.8 ]",
+  "platform": "macOS-15.7.9-x86_64-i386-64bit",
+  "machine": "x86_64",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "XLA_FLAGS": null
+  },
+  "versions": {
+    "constellaration": "0.2.6",
+    "vmecpp": "0.4.11",
+    "booz-xform": "0.1.0",
+    "simsopt": "1.8.1",
+    "desc-opt": "0.15.0",
+    "jax": "0.4.38",
+    "jaxlib": "0.4.38",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pymoo": "0.6.1.5",
+    "netCDF4": "1.7.2"
+  },
+  "targets": {
+    "reference401": {
+      "completed": true,
+      "input": "evidence/plasma-design-v2/reference-input-401.json",
+      "input_sha256": "57394ef682f3c6399faa03012abc02da2eb1ce40703a4f99640ece3d07e5691f",
+      "conversion": {
+        "mpol": 5,
+        "ntor": 9,
+        "n_field_periods": 2,
+        "R00": 1.0,
+        "scale": 1.0,
+        "max_abs_difference_to_vmecpp_reader": 0.0
+      },
+      "settings": "ConstellarationSettings(vmec_preset_settings=VmecPresetSettings(fidelity='high_fidelity', verbose=False, multithreaded=False), boozer_preset_settings=BoozerPresetSettings(normalized_toroidal_flux=[1.0], verbose=False), qi_settings=QISettings(n_field_lines=75, n_toroidal_points=601, n_field_contours=401, n_output_toroidal_points=2000), turbulent_settings=IdealMHDTurbulentTransportMetricsSettings(normalized_toroidal_flux=array([0.49]), n_field_lines=101, n_toroidal_points=64))",
+      "forward_model_seconds": 225.61271223699987,
+      "metrics": {
+        "aspect_ratio": 9.995099380626115,
+        "aspect_ratio_over_edge_rotational_transform": -19.90605399242175,
+        "max_elongation": 5.963036787801834,
+        "axis_rotational_transform_over_n_field_periods": -0.2959383472626205,
+        "edge_rotational_transform_over_n_field_periods": -0.25105677359338163,
+        "axis_magnetic_mirror_ratio": 0.21984523095190792,
+        "edge_magnetic_mirror_ratio": 0.23330664126112502,
+        "average_triangularity": -0.23529793772490742,
+        "vacuum_well": -0.015743643819728544,
+        "minimum_normalized_magnetic_gradient_scale_length": 6.140626676985678,
+        "qi": 2.4020366353169345e-05,
+        "flux_compression_in_regions_of_bad_curvature": 1.396706185112501
+      },
+      "vmec": {
+        "ns": 199,
+        "mpol": 10,
+        "ntor": 10,
+        "fsqr": 9.97292639512157e-16,
+        "fsqz": 2.5743033238516114e-16,
+        "fsql": 8.629544044453286e-17,
+        "ier_flag": 0,
+        "aspect": 9.995099380626115,
+        "Aminor_p": 0.0987637025714228,
+        "Rmajor_p": 0.9871530223999699
+      },
+      "geometry_check": {
+        "grid": [
+          64,
+          128
+        ],
+        "surface_vs_input": 1.9984014443252818e-15,
+        "surface_coefficient_bound": 0.0,
+        "vmec_boundary_coefficient_bound": 1.5331719861776463e-17,
+        "vmec_boundary_vs_input": 4.440892098500626e-16,
+        "vmec_boundary_vs_input_theta_flipped": 0.35630031464172546
+      },
+      "conversion_validation": {
+        "passed": true,
+        "absolute_tolerance": 1e-10,
+        "relative_to_R00": 1e-10
+      },
+      "benchmarks": {
+        "geometrical": {
+          "objective": 5.963036787801834,
+          "feasible": false,
+          "feasibility": 1.4987748451565288,
+          "score": 0.0,
+          "normalized_violations": [
+            1.4987748451565288,
+            0.5294041245501852,
+            0.1631440880220612
+          ]
+        },
+        "simple_to_build_qi": {
+          "objective": 6.140626676985678,
+          "feasible": false,
+          "feasibility": 0.19260735756036684,
+          "score": 0.0,
+          "normalized_violations": [
+            -0.0004900619373884752,
+            -0.00422709437352653,
+            -0.1548550932804622,
+            0.16653320630562504,
+            0.19260735756036684
+          ]
+        },
+        "mhd_stable_qi": {
+          "objectives": [
+            6.140626676985678,
+            9.995099380626115
+          ],
+          "feasible": false,
+          "feasibility": 0.5518957612361123,
+          "score_as_single_design_set": 0.0,
+          "normalized_violations": [
+            -0.00422709437352653,
+            -0.31983439232052824,
+            -0.06677343495549992,
+            0.5518957612361123,
+            0.15743643819728542
+          ]
+        }
+      }
+    },
+    "selected401": {
+      "completed": true,
+      "input": "evidence/plasma-balanced-v1/selected-input-401.json",
+      "input_sha256": "6bec3483eaced499bafe7ee94b16aa960d219ec1fec86cc0690012f8ebdb033e",
+      "conversion": {
+        "mpol": 5,
+        "ntor": 9,
+        "n_field_periods": 2,
+        "R00": 1.0,
+        "scale": 1.0,
+        "max_abs_difference_to_vmecpp_reader": 0.0
+      },
+      "settings": "ConstellarationSettings(vmec_preset_settings=VmecPresetSettings(fidelity='high_fidelity', verbose=False, multithreaded=False), boozer_preset_settings=BoozerPresetSettings(normalized_toroidal_flux=[1.0], verbose=False), qi_settings=QISettings(n_field_lines=75, n_toroidal_points=601, n_field_contours=401, n_output_toroidal_points=2000), turbulent_settings=IdealMHDTurbulentTransportMetricsSettings(normalized_toroidal_flux=array([0.49]), n_field_lines=101, n_toroidal_points=64))",
+      "forward_model_seconds": 206.29686744399987,
+      "metrics": {
+        "aspect_ratio": 9.9955534457744,
+        "aspect_ratio_over_edge_rotational_transform": -19.929720445405938,
+        "max_elongation": 5.956728480800499,
+        "axis_rotational_transform_over_n_field_periods": -0.2961700319161915,
+        "edge_rotational_transform_over_n_field_periods": -0.2507700364677846,
+        "axis_magnetic_mirror_ratio": 0.22089436401440254,
+        "edge_magnetic_mirror_ratio": 0.23493239627800974,
+        "average_triangularity": -0.23657819763231025,
+        "vacuum_well": -0.01578691933109674,
+        "minimum_normalized_magnetic_gradient_scale_length": 6.138859023374307,
+        "qi": 2.2281008520134104e-05,
+        "flux_compression_in_regions_of_bad_curvature": 1.3985555957911926
+      },
+      "vmec": {
+        "ns": 199,
+        "mpol": 10,
+        "ntor": 10,
+        "fsqr": 9.97285684924436e-16,
+        "fsqz": 2.597824221212272e-16,
+        "fsql": 4.303821951419602e-17,
+        "ier_flag": 0,
+        "aspect": 9.9955534457744,
+        "Aminor_p": 0.09875975502415688,
+        "Rmajor_p": 0.9871584096355469
+      },
+      "geometry_check": {
+        "grid": [
+          64,
+          128
+        ],
+        "surface_vs_input": 1.9984014443252818e-15,
+        "surface_coefficient_bound": 0.0,
+        "vmec_boundary_coefficient_bound": 1.446435812378806e-17,
+        "vmec_boundary_vs_input": 4.440892098500626e-16,
+        "vmec_boundary_vs_input_theta_flipped": 0.3564040201258344
+      },
+      "conversion_validation": {
+        "passed": true,
+        "absolute_tolerance": 1e-10,
+        "relative_to_R00": 1e-10
+      },
+      "benchmarks": {
+        "geometrical": {
+          "objective": 5.956728480800499,
+          "feasible": false,
+          "feasibility": 1.4988883614436,
+          "score": 0.0,
+          "normalized_violations": [
+            1.4988883614436,
+            0.5268436047353795,
+            0.1640998784407179
+          ]
+        },
+        "simple_to_build_qi": {
+          "objective": 6.138859023374307,
+          "feasible": false,
+          "feasibility": 0.1913456961600998,
+          "score": 0.0,
+          "normalized_violations": [
+            -0.00044465542256002524,
+            -0.0030801458711384733,
+            -0.16301628882322672,
+            0.17466198139004865,
+            0.1913456961600998
+          ]
+        },
+        "mhd_stable_qi": {
+          "objectives": [
+            6.138859023374307,
+            9.9955534457744
+          ],
+          "feasible": false,
+          "feasibility": 0.5539506619902139,
+          "score_as_single_design_set": 0.0,
+          "normalized_violations": [
+            -0.0030801458711384733,
+            -0.32916147294083054,
+            -0.06027041488796103,
+            0.5539506619902139,
+            0.15786919331096738
+          ]
+        }
+      }
+    }
+  },
+  "physical_admission": false,
+  "geometry_relative_tolerance": 1e-10,
+  "boundary_only": true,
+  "rule": {
+    "relative_change": -0.00028786208710525807,
+    "outcome": "no measurable cost"
+  },
+  "wall_seconds": 433.0852418880004,
+  "peak_rss_bytes": 2750967808,
+  "free_disk_bytes_after": 58957537280
+}
