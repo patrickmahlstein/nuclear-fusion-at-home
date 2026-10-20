@@ -1,0 +1,224 @@
+{
+  "python": "3.12.15 (main, Oct 13 2026, 17:19:37) [Clang 21.1.8 ]",
+  "platform": "macOS-15.7.9-x86_64-i386-64bit",
+  "machine": "x86_64",
+  "versions": {
+    "constellaration": "0.2.6",
+    "vmecpp": "0.4.11",
+    "booz-xform": "0.1.0",
+    "simsopt": "1.8.1",
+    "desc-opt": "0.15.0",
+    "jax": "0.4.38",
+    "jaxlib": "0.4.38",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pymoo": "0.6.1.5",
+    "netCDF4": "1.7.2",
+    "pydantic": "2.14.1",
+    "pydantic-core": "2.50.1"
+  },
+  "versions_match": true,
+  "python_sha256": "f24a32db249fb93c5e4d702e6e5dbcc6fe8eba281a9b21555ae173f04999f6f9",
+  "constellaration_sources": {
+    "lib/python3.12/site-packages/constellaration/__about__.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/__init__.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/boozer/__init__.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/boozer/boozer.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/data_generation/__init__.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/data_generation/desc_optimization.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/data_generation/desc_optimization_settings.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/data_generation/rotational_transform_scaling.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/data_generation/vmec_optimization.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/data_generation/vmec_optimization_settings.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/forward_model.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/generative_model/bootstrap_dataset.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/generative_model/mcmc_algo.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/generative_model/optimize_with_mcmc.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/geometry/__init__.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/geometry/radial_profile.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/geometry/surface_rz_fourier.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/geometry/surface_utils.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/geometry/surface_utils_desc.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/initial_guess.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/mhd/__init__.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/mhd/flux_power_series.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/mhd/geometry_utils.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/mhd/ideal_mhd_parameters.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/mhd/ideal_mhd_parameters_utils.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/mhd/magnetics_utils.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/mhd/near_axis_configuration.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/mhd/turbulent_transport.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/mhd/vmec_settings.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/mhd/vmec_utils.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/omnigeneity/__init__.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/omnigeneity/omnigenity_field.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/omnigeneity/omnigenity_field_desc.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/omnigeneity/omnigenity_field_plot.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/omnigeneity/omnigenity_field_sampling.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/omnigeneity/qi.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/optimization/__init__.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/optimization/augmented_lagrangian.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/optimization/augmented_lagrangian_runner.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/optimization/scipy_minimize_runner.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/optimization/settings.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/problems.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/utils/__init__.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/utils/dataset_utils.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/utils/file_exporter.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/utils/pytree.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/utils/seed_util.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/utils/types.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/utils/visualization.py": {
+      "present": true,
+      "matches": true
+    },
+    "lib/python3.12/site-packages/constellaration/utils/visualization_utils.py": {
+      "present": true,
+      "matches": true
+    }
+  }
+}

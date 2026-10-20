@@ -1,0 +1,13 @@
+constellaration==0.2.6
+vmecpp==0.4.11
+booz-xform==0.1.0
+simsopt==1.8.1
+desc-opt==0.15.0
+jax==0.4.38
+jaxlib==0.4.38
+numpy==2.2.6
+scipy==1.15.3
+pymoo==0.6.1.5
+netCDF4==1.7.2
+pydantic==2.14.1
+pydantic-core==2.50.1
