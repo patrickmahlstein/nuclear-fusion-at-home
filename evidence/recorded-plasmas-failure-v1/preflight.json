@@ -1,0 +1,18 @@
+{
+  "request": "CAL-REQ-006",
+  "manifest_sha256": "0491388c286cfd21872bd0da2ccaa8916c0366ed918879012c204cc189650bfc",
+  "grant_start": "2026-10-20T07:00:00+00:00",
+  "grant_end": "2026-10-20T19:00:00+00:00",
+  "controller_age_seconds": 4.960509,
+  "controller": {
+    "checked_at": "2026-10-20T18:19:14.976607+00:00",
+    "native_compute_pids": [],
+    "controller_lock_held": true,
+    "other_codex_exec_worker": false,
+    "scope": "Root-owned C18 recovered radial dispatch; lock held until child completion"
+  },
+  "recovery_manifest_sha256": "1d3f567cc0affadbc508017ea16bcd0b9f07faca97716173b1d22853b73d2d03",
+  "inherited_task_reservation": true,
+  "peer_sha256": "8494a1207c9e837530cd79cf6f0f415b85b90a99583e1a204d03ae66b29e568a",
+  "controller_sha256": "0c6e7d83ba134b80a0bcbf40d623d3d2f95b1c5caadafe49eb15596fce67d6a3"
+}
