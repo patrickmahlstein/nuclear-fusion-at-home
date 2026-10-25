@@ -1,0 +1,27 @@
+{
+  "n_poloidal_modes": 10,
+  "max_toroidal_mode": 10,
+  "n_poloidal_grid_points": 26,
+  "n_toroidal_grid_points": 24,
+  "multigrid_steps": [
+    {
+      "n_flux_surfaces": 25,
+      "force_tolerance": 1e-17,
+      "n_max_iterations": 2000
+    },
+    {
+      "n_flux_surfaces": 51,
+      "force_tolerance": 1e-17,
+      "n_max_iterations": 2000
+    },
+    {
+      "n_flux_surfaces": 99,
+      "force_tolerance": 1e-15,
+      "n_max_iterations": 40000
+    }
+  ],
+  "time_step": 0.5,
+  "full_vacuum_field_update_every": 1,
+  "verbose": false,
+  "max_threads": 1
+}

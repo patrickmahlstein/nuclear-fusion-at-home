@@ -1,0 +1,16 @@
+{
+  "completed": false,
+  "physical_admission": false,
+  "manifest_sha256": "7d250041a2ee007ec232939ddbf7da3a0b78c40c1223ab87bd49358dbf2864a6",
+  "execution": {
+    "exit_code": 1,
+    "stop_reason": null,
+    "monotonic_seconds": 674.1773789699982,
+    "utc_elapsed_seconds": 674.1690459251404,
+    "finished_at": "2026-10-25T10:36:38.277019+00:00",
+    "output_bytes": 3199281
+  },
+  "error": "Traceback (most recent call last):\n  File \"/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/worktrees/codex-resolution-recovered/results/c18-recorded-v2/score_recorded.py\", line 111, in main\n    guard.need(run['exit_code']==0 and run['stop_reason'] is None,'native child incomplete')\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/worktrees/codex-resolution-recovered/results/c18-resolution-launcher/launch_resolution.py\", line 31, in need\n    raise ValueError(message)\nValueError: native child incomplete\n",
+  "monotonic_seconds": 674.3340026290025,
+  "utc_elapsed_seconds": 674.3252909183502
+}

@@ -1,0 +1,8 @@
+{
+  "completed_report_verified": true,
+  "bound_files_unchanged": 84,
+  "rejected_report_sha256": "c49cd53010b449d10f780a1dbf2187cdd35a3f2b1bc0fb10eab132fb0980835d",
+  "n21_state": "VMEC++ did not converge; no metrics or Wout",
+  "batch_completed": false,
+  "physical_admission": false
+}

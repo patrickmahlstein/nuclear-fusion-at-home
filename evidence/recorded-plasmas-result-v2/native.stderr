@@ -1,0 +1,28 @@
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/geo/surfaceobjectives.py:1092: SyntaxWarning: invalid escape sequence '\l'
+  vector-Jacobian product of \lm^T * dlsqgrad_dcoils, \lm^T * dlsqgrad_dcurrents:
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/geo/surface.py:328: SyntaxWarning: invalid escape sequence '\p'
+  This function takes in a cylindrical angle :math:`\phi` and returns the cross
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/geo/surfacerzfourier.py:840: SyntaxWarning: invalid escape sequence '\p'
+  cross-section at :math:`\phi=0` being taller than it is wide.
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/objectives/constrained.py:36: SyntaxWarning: invalid escape sequence '\m'
+  \min_x f(x)
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/geo/surfacegarabedian.py:116: SyntaxWarning: invalid escape sequence '\D'
+  Return a particular :math:`\Delta_{m,n}` coefficient.
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/geo/surfacegarabedian.py:122: SyntaxWarning: invalid escape sequence '\D'
+  Set a particular :math:`\Delta_{m,n}` coefficient.
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/mhd/vmec_diagnostics.py:1554: SyntaxWarning: invalid escape sequence '\p'
+  plt.xlabel('Standard toroidal angle $\phi$')
+/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/simsopt/mhd/profiles.py:109: SyntaxWarning: invalid escape sequence '\p'
+  Here :math:`s` is defined as :math:`s = \psi_t/\psi_{edge}`. Thus,
+Traceback (most recent call last):
+  File "/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/worktrees/codex-resolution-recovered/results/c18-recorded-v2/score_recorded.py", line 124, in <module>
+    if __name__=='__main__':sys.exit(main())
+                                     ^^^^^^
+  File "/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/worktrees/codex-resolution-recovered/results/c18-recorded-v2/score_recorded.py", line 95, in main
+    child(manifest,args.manifest_sha256);return 0
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/worktrees/codex-resolution-recovered/results/c18-recorded-v2/score_recorded.py", line 75, in child
+    guard.need(code==0, f'scorer failed: {item["id"]}')
+  File "/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/worktrees/codex-resolution-recovered/results/c18-resolution-launcher/launch_resolution.py", line 31, in need
+    raise ValueError(message)
+ValueError: scorer failed: n21-repaired

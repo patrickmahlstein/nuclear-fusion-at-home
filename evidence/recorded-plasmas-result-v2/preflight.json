@@ -1,0 +1,13 @@
+{
+  "claim_start": "2026-10-25T10:24:16.071258+00:00",
+  "claim_end": "2026-10-25T12:24:16.071258+00:00",
+  "peer_checkpoint_sha256": "fb86c9f608aca2a5d46532b29fbb1f5aaf966da9b343406c04a5cd1b57961c92",
+  "own_note_sha256": "3671715c965f87803a0358f1e575370fd15122b479a70f50eef375053df52124",
+  "controller": {
+    "checked_at": "2026-10-25T10:25:23.270640+00:00",
+    "native_compute_pids": [],
+    "controller_lock_held": true,
+    "other_codex_exec_worker": false,
+    "scope": "Root-owned C18 recovered radial dispatch; lock held until child completion"
+  }
+}

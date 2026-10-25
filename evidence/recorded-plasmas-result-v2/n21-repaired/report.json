@@ -1,0 +1,49 @@
+{
+  "kind": "constellaration-metrics-custom-boundary",
+  "python": "3.12.15 (main, Oct 13 2026, 17:19:37) [Clang 21.1.8 ]",
+  "platform": "macOS-15.7.9-x86_64-i386-64bit",
+  "machine": "x86_64",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "XLA_FLAGS": null
+  },
+  "versions": {
+    "constellaration": "0.2.6",
+    "vmecpp": "0.4.11",
+    "booz-xform": "0.1.0",
+    "simsopt": "1.8.1",
+    "desc-opt": "0.15.0",
+    "jax": "0.4.38",
+    "jaxlib": "0.4.38",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pymoo": "0.6.1.5",
+    "netCDF4": "1.7.2"
+  },
+  "targets": {
+    "n21-repaired": {
+      "completed": false,
+      "input": "/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/coordination/logs/claude/N21/best-input-401.json",
+      "input_sha256": "deca897168dc7d56e80d990beebecad27cf23f4cd7b2739dde8585f8a9a48a9c",
+      "conversion": {
+        "mpol": 5,
+        "ntor": 9,
+        "n_field_periods": 2,
+        "R00": 1.0,
+        "scale": 1.0,
+        "max_abs_difference_to_vmecpp_reader": 0.0
+      },
+      "settings": "ConstellarationSettings(vmec_preset_settings=VmecPresetSettings(fidelity='high_fidelity', verbose=False, multithreaded=False), boozer_preset_settings=BoozerPresetSettings(normalized_toroidal_flux=[1.0], verbose=False), qi_settings=QISettings(n_field_lines=75, n_toroidal_points=601, n_field_contours=401, n_output_toroidal_points=2000), turbulent_settings=IdealMHDTurbulentTransportMetricsSettings(normalized_toroidal_flux=array([0.49]), n_field_lines=101, n_toroidal_points=64))",
+      "error": "Traceback (most recent call last):\n  File \"/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/worktrees/codex-resolution-recovered/scripts/constellaration_metrics.py\", line 297, in evaluate\n    metrics, wout = forward_model.forward_model(surface, settings=settings)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/constellaration/forward_model.py\", line 106, in forward_model\n    equilibrium = vmec_utils.run_vmec(\n                  ^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/constellaration/mhd/vmec_utils.py\", line 275, in run_vmec\n    output_quantities = vmecpp.run(\n                        ^^^^^^^^^^^\n  File \"/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/environments/c18-cst/lib/python3.12/site-packages/vmecpp/__init__.py\", line 1912, in run\n    cpp_output_quantities = _vmecpp.run(\n                            ^^^^^^^^^^^^\nRuntimeError: VMEC++ did not converge\n"
+    }
+  },
+  "physical_admission": false,
+  "geometry_relative_tolerance": 1e-10,
+  "boundary_only": true,
+  "wall_seconds": 550.7482872680011,
+  "peak_rss_bytes": 2607071232,
+  "free_disk_bytes_after": 58905669632
+}
