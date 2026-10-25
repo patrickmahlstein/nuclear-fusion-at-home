@@ -1,0 +1,42 @@
+{
+ "2931": {
+  "aspect_ratio": 9.858498297984543,
+  "flux_compression_in_regions_of_bad_curvature": 1.184444827414777,
+  "max_elongation": 4.922497634506788,
+  "edge_magnetic_mirror_ratio": 0.32080987805776096,
+  "qi": 0.0025896705204838484,
+  "vacuum_well": -0.12164194149922503,
+  "edge_rotational_transform_over_n_field_periods": 0.31196825635954617,
+  "minimum_normalized_magnetic_gradient_scale_length": 4.500678858938508
+ },
+ "23761": {
+  "aspect_ratio": 9.549237969705107,
+  "flux_compression_in_regions_of_bad_curvature": 1.8463058508701904,
+  "max_elongation": 7.02275738227834,
+  "edge_magnetic_mirror_ratio": 0.40178285138507336,
+  "qi": 0.0011908270021352768,
+  "vacuum_well": -0.09976292260979196,
+  "edge_rotational_transform_over_n_field_periods": 0.2149428526371855,
+  "minimum_normalized_magnetic_gradient_scale_length": 7.40557645337562
+ },
+ "46244": {
+  "aspect_ratio": 10.07476106341468,
+  "flux_compression_in_regions_of_bad_curvature": 1.6315126408416523,
+  "max_elongation": 5.754823872503901,
+  "edge_magnetic_mirror_ratio": 0.26617859231656343,
+  "qi": 0.0031411240459856844,
+  "vacuum_well": -0.12907363447679682,
+  "edge_rotational_transform_over_n_field_periods": 0.2121931228646573,
+  "minimum_normalized_magnetic_gradient_scale_length": 6.994385517013358
+ },
+ "60653": {
+  "aspect_ratio": 9.677140898387812,
+  "flux_compression_in_regions_of_bad_curvature": 1.5782446258418137,
+  "max_elongation": 6.260939284510185,
+  "edge_magnetic_mirror_ratio": 0.337744937506766,
+  "qi": 0.0018805939929101218,
+  "vacuum_well": -0.1149573083218001,
+  "edge_rotational_transform_over_n_field_periods": 0.31460683154318936,
+  "minimum_normalized_magnetic_gradient_scale_length": 3.0026252270936356
+ }
+}

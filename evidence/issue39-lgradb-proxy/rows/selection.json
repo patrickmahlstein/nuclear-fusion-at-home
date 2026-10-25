@@ -1,0 +1,75 @@
+{
+ "eligible": 1597,
+ "report": [
+  {
+   "target": 2.5,
+   "row": 7187,
+   "lgradb": 2.4793393866067235
+  },
+  {
+   "target": 3.5,
+   "row": 63338,
+   "lgradb": 3.4978256464233985
+  },
+  {
+   "target": 4.0,
+   "row": 53069,
+   "lgradb": 4.001333697862378
+  },
+  {
+   "target": 5.0,
+   "row": 72275,
+   "lgradb": 5.000770500389362
+  },
+  {
+   "target": 5.5,
+   "row": 56162,
+   "lgradb": 5.499765114801101
+  },
+  {
+   "target": 6.5,
+   "row": 20622,
+   "lgradb": 6.502267695773771
+  },
+  {
+   "target": 8.0,
+   "row": null,
+   "dropped": true
+  },
+  {
+   "target": 9.0,
+   "row": null,
+   "dropped": true
+  },
+  {
+   "target": 10.0,
+   "row": null,
+   "dropped": true
+  },
+  {
+   "target": 11.0,
+   "row": null,
+   "dropped": true
+  },
+  {
+   "target": 2.0,
+   "row": 1605,
+   "lgradb": 2.0157138714779146
+  },
+  {
+   "target": 3.0,
+   "row": 20912,
+   "lgradb": 3.013610817020979
+  },
+  {
+   "target": 6.0,
+   "row": 37323,
+   "lgradb": 6.000666011334652
+  },
+  {
+   "target": 7.0,
+   "row": 85570,
+   "lgradb": 7.027400184232491
+  }
+ ]
+}

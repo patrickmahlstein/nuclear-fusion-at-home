@@ -1,0 +1,87 @@
+{
+  "kind": "vmecpp-wout",
+  "completed": true,
+  "input": {
+    "path": "results/n45/row37323-input.json",
+    "sha256": "f3ba67a5e37bfa82971e5f46c35086195790e4f6cc130a566afa78398b883d2f"
+  },
+  "schedule": {
+    "ns_array": [
+      12,
+      25,
+      51,
+      101,
+      201,
+      401
+    ],
+    "ftol_array": [
+      1e-08,
+      1e-10,
+      1e-11,
+      1e-12,
+      1e-12,
+      1e-12
+    ],
+    "niter_array": [
+      10000,
+      10000,
+      10000,
+      10000,
+      10000,
+      10000
+    ]
+  },
+  "max_threads": 1,
+  "budget_seconds": 900,
+  "vmecpp": "0.8.0",
+  "python": "3.12.15",
+  "machine": "x86_64",
+  "provenance": {
+    "schema_version": 1,
+    "host": {
+      "captured_at": "2026-10-25T15:06:18.342795+00:00",
+      "platform": "macOS-15.7.9-x86_64-i386-64bit",
+      "machine": "x86_64",
+      "processor": "i386",
+      "python": "3.12.15 (main, Oct 13 2026, 17:19:37) [Clang 21.1.8 ]",
+      "python_executable": "<env>/bin/python",
+      "logical_cpu_count": 8
+    },
+    "repository": {
+      "path": "<workspace>/worktrees/claude-n45",
+      "available": true,
+      "commit": "954fd5aadef84e4acda44bde2ce796d320b22532",
+      "branch": "",
+      "dirty": false
+    },
+    "external_repositories": {}
+  },
+  "identity_note": "regenerated Wout: own identity, never an archived one",
+  "wall_seconds": 368.2415118360004,
+  "exit_code": 0,
+  "summary": {
+    "ier_flag": 0.0,
+    "ns": 401.0,
+    "nfp": 2.0,
+    "mpol": 5.0,
+    "ntor": 10.0,
+    "volume_p": 0.21912772465080885,
+    "aspect": 9.656710313645542,
+    "Rmajor_p": 1.011599637402057,
+    "Aminor_p": 0.10475613377079385,
+    "b0": 1.2135062458748604,
+    "betatotal": 0.0,
+    "wb": 0.002574618612619629,
+    "iotaf_axis": 0.4525553664352471,
+    "iotaf_edge": 0.47925216781858726,
+    "phi_axis": -0.0,
+    "phi_edge": 0.03141592653589761,
+    "presf_axis": 0.0,
+    "presf_edge": 0.0
+  },
+  "boundary_check": "input boundary to 1e-12, 401 surfaces, edge flux to 1e-14",
+  "wout": {
+    "path": "results/n45/wout-37323/wout.nc",
+    "sha256": "5f6340eb3946ba4291114ee6e0499c4a7f15236c92d44b171156e21314969443"
+  }
+}

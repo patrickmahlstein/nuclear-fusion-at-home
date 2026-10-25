@@ -1,0 +1,24 @@
+{
+  "schema": "coil-target-spec/v1",
+  "target_id": "n45-1605.v0",
+  "input": {
+    "path": "results/n45/row1605-input.json",
+    "sha256": "196918ad02011a520fd830448caeaf667a7abe54864ac669b0d388496bcd3700"
+  },
+  "wout": {
+    "sha256": "13f46cb6f457c995292290f3548136ec71fb2e475b6161db1c5fdb3d3896f8a4",
+    "vmecpp": "0.8.0"
+  },
+  "B2": 1.1269680083273257,
+  "B2_measured_32": 1.1269680083273257,
+  "flux": -0.03141592653589793,
+  "seed": {
+    "snapshot_sha256": "fc42c2c8872af475fd91ab9b0060c0a423a9927ffbc49ac5e83aa67ef0462507",
+    "current_A": -276719.5842975979,
+    "origin": {
+      "candidate": "results/n45/seed-1605.json",
+      "sha256": "938f95b44941b2bf0c84a1ad541f345efdff61cff6647f14c00e20ade0d3a9e6"
+    }
+  },
+  "note": "errors against different targets are not directly comparable"
+}

@@ -1,0 +1,87 @@
+{
+  "kind": "vmecpp-wout",
+  "completed": true,
+  "input": {
+    "path": "results/n45/row85570-input.json",
+    "sha256": "e1b61b4a2f708f2208bcb4003c7ba7ab8f7f36e7022d9747596c8121b3a29f7a"
+  },
+  "schedule": {
+    "ns_array": [
+      12,
+      25,
+      51,
+      101,
+      201,
+      401
+    ],
+    "ftol_array": [
+      1e-08,
+      1e-10,
+      1e-11,
+      1e-12,
+      1e-12,
+      1e-12
+    ],
+    "niter_array": [
+      10000,
+      10000,
+      10000,
+      10000,
+      10000,
+      10000
+    ]
+  },
+  "max_threads": 1,
+  "budget_seconds": 900,
+  "vmecpp": "0.8.0",
+  "python": "3.12.15",
+  "machine": "x86_64",
+  "provenance": {
+    "schema_version": 1,
+    "host": {
+      "captured_at": "2026-10-25T18:54:15.823659+00:00",
+      "platform": "macOS-15.7.9-x86_64-i386-64bit",
+      "machine": "x86_64",
+      "processor": "i386",
+      "python": "3.12.15 (main, Oct 13 2026, 17:19:37) [Clang 21.1.8 ]",
+      "python_executable": "<env>/bin/python",
+      "logical_cpu_count": 8
+    },
+    "repository": {
+      "path": "<workspace>/worktrees/claude-n45",
+      "available": true,
+      "commit": "954fd5aadef84e4acda44bde2ce796d320b22532",
+      "branch": "",
+      "dirty": false
+    },
+    "external_repositories": {}
+  },
+  "identity_note": "regenerated Wout: own identity, never an archived one",
+  "wall_seconds": 370.68530820999877,
+  "exit_code": 0,
+  "summary": {
+    "ier_flag": 0.0,
+    "ns": 401.0,
+    "nfp": 2.0,
+    "mpol": 5.0,
+    "ntor": 10.0,
+    "volume_p": 0.20362688415813057,
+    "aspect": 10.037349022631805,
+    "Rmajor_p": 1.0129339844594223,
+    "Aminor_p": 0.10091648523683894,
+    "b0": 1.1578495714839518,
+    "betatotal": 0.0,
+    "wb": 0.0026883143717279017,
+    "iotaf_axis": 0.4354924676510394,
+    "iotaf_edge": 0.4141337251547007,
+    "phi_axis": -0.0,
+    "phi_edge": 0.03141592653589761,
+    "presf_axis": 0.0,
+    "presf_edge": 0.0
+  },
+  "boundary_check": "input boundary to 1e-12, 401 surfaces, edge flux to 1e-14",
+  "wout": {
+    "path": "results/n45/wout-85570/wout.nc",
+    "sha256": "c0e40a4be7b56e1fa260f80cc63cc3a44e8e02dd6b8aee63e107ff05806ce1e7"
+  }
+}

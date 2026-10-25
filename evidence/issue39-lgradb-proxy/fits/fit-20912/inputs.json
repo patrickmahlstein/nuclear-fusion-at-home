@@ -1,0 +1,153 @@
+{
+  "check_seconds": 900.0,
+  "coefficient_bounds": null,
+  "completed": false,
+  "construction_margins": {
+    "coil_distance": 0.07,
+    "curvature": 10.0,
+    "length": 3.44,
+    "name": "current",
+    "selection_length": 3.45,
+    "surface_distance": 0.09
+  },
+  "fine": [],
+  "interior": [],
+  "kind": "normalized-coil-fit",
+  "physical_admission": false,
+  "portable_target": {
+    "B2_scale": 1.1458210984655974,
+    "archived_wout_identity": false,
+    "check": "frozen target-spec Wout identity and input consistency",
+    "dense_identity_verified": false,
+    "frozen_wout_identity": true,
+    "input_sha256": "493362a44b1523443e3a59e57b7a7020d9f5a55ca85f16cbddb9cf9851eeddb1",
+    "measured_B2": 1.1458210984655974,
+    "starter_errors": {},
+    "target_flux": -0.03141592653589793,
+    "target_id": "n45-20912.v0",
+    "target_spec_sha256": "281687444eab2b36d99c7bdab4fb4305019da3ed5d0488ff38ac9470d9ec08f5",
+    "wout_sha256": "7892a9ceb3504401b52b0532e82f0da346cedaaff9a6788d8919579837b567d9"
+  },
+  "provenance": {
+    "external_repositories": {},
+    "host": {
+      "captured_at": "2026-10-25T14:35:54.286680+00:00",
+      "logical_cpu_count": 8,
+      "machine": "x86_64",
+      "platform": "macOS-15.7.9-x86_64-i386-64bit",
+      "processor": "i386",
+      "python": "3.12.15 (main, Oct 13 2026, 17:19:37) [Clang 21.1.8 ]",
+      "python_executable": "<env>/bin/python"
+    },
+    "repository": {
+      "available": true,
+      "branch": "",
+      "commit": "954fd5aadef84e4acda44bde2ce796d320b22532",
+      "dirty": false,
+      "path": "<workspace>/worktrees/claude-n45"
+    },
+    "schema_version": 1
+  },
+  "recording": {
+    "constraints": {
+      "coefficient_bounds": null,
+      "margin_preset": "current",
+      "penalties": {
+        "coil_distance_min_m": 0.07,
+        "curvature_p": 2,
+        "curvature_threshold_per_m": 10.0,
+        "length_max_m": 3.44,
+        "surface_distance_min_m": 0.09
+      },
+      "selection": {
+        "current_max_A": 500000.0,
+        "length_max_m": 3.45,
+        "sampled_coil_distance_min_m": 0.06,
+        "sampled_curvature_max_per_m": 12.0,
+        "sampled_length_max_m": 3.5,
+        "sampled_surface_distance_min_m": 0.08
+      }
+    },
+    "current_convention": "1e5 A base current scaled by target_flux/unit_flux",
+    "elapsed_scope": "model.evaluate and post-evaluation guard; excludes trial-file writes",
+    "format": "fusion-coil-recording-v3",
+    "objective_weights": {
+      "coil_distance": 1000.0,
+      "curvature": 0.01,
+      "flux_per_area": 1.0,
+      "length": 1.0,
+      "surface_distance": 1000.0
+    },
+    "resource_limits": {
+      "initial_reserve_bytes": 3221225472,
+      "live_reserve_bytes": 2147483648,
+      "output_bytes": 1073741824
+    },
+    "search_resolution": {
+      "boundary_offset": 0,
+      "boundary_phi": 64,
+      "boundary_phi_extent_turns": 0.5,
+      "boundary_theta": 64,
+      "coil_nodes": 256,
+      "flux_loop_nodes": 256,
+      "geometry_phi": 128,
+      "geometry_phi_extent_turns": 1.0,
+      "geometry_theta": 128
+    },
+    "search_timing": {
+      "callback": "before iterate publication",
+      "clock": "time.monotonic; seconds",
+      "end": "after model evaluation/post-guard, before terminal publication",
+      "origin": "after startup, before minimize",
+      "start": "before vector and attempt publication"
+    },
+    "selection_rule": "lowest normal_rms among completed eligible startup-seed/search",
+    "target_policy": "fixed seed target, signed flux and B2_scale throughout run",
+    "task_id": "fixed-target/n45-20912.v0"
+  },
+  "search_seconds": 1800.0,
+  "solver_options": {
+    "ftol": 0.0,
+    "gtol": 1e-09,
+    "maxfun": 2147483647,
+    "maxiter": 2147483647,
+    "maxls": 20
+  },
+  "sources_before": {
+    "<env>/lib/python3.12/site-packages/scipy/optimize/_lbfgsb.cpython-312-darwin.so": "6ceae1e5351ae0d3e20bc58e22314ca2bba8b901a7c1c3a6ad75ebc6bf456347",
+    "<env>/lib/python3.12/site-packages/scipy/optimize/_lbfgsb_py.py": "61b69554f33a210284d4ae3de7da282152f9302b428eeb16984498b54e381d57",
+    "<env>/lib/python3.12/site-packages/simsopt/_core/optimizable.py": "4f0f1b3f6536f6e38076e9afbb41339b6a234270f4a1722448205eedf33d5d38",
+    "<env>/lib/python3.12/site-packages/simsopt/field/biotsavart.py": "f0897aafe944f93eabc8c737d13cec46048a85c7c4aaba37dcb4e1900a1d05f9",
+    "<env>/lib/python3.12/site-packages/simsopt/geo/curveobjectives.py": "3739110f685a0b7363c154daf6e4ecdc4e49bbbf1bffc62856a8731e7ffe3fa1",
+    "<env>/lib/python3.12/site-packages/simsopt/geo/curvexyzfourier.py": "c3c9e0cdcc6420b408dd39dcd815fc8860a4c78dd3302491fa24cc6fdacdc10c",
+    "<env>/lib/python3.12/site-packages/simsopt/objectives/fluxobjective.py": "65855e8fd43e05e23c69acc1648a1b404078a2ecaeac79f4b62adc31b3d435d9",
+    "<env>/lib/python3.12/site-packages/simsoptpp.cpython-312-darwin.so": "a981b9470b0708db9674f0666773b60c629da34784a00b1b9f0451f456dd8d66",
+    "<workspace>/worktrees/claude-n45/results/n45/row20912-input.json": "493362a44b1523443e3a59e57b7a7020d9f5a55ca85f16cbddb9cf9851eeddb1",
+    "<workspace>/worktrees/claude-n45/results/n45/spec-20912/seed.json": "23f0f8a32c44ab56593e6c141fed2f890f439bbdfeb977ef24ef1716d54318ec",
+    "<workspace>/worktrees/claude-n45/results/n45/wout-20912/wout.nc": "7892a9ceb3504401b52b0532e82f0da346cedaaff9a6788d8919579837b567d9",
+    "<workspace>/worktrees/claude-n45/scripts/fit_coils.py": "a23b014e426cf507ef2027b1380e2c10d25ab667248d62082cdd8b01d561ef74",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/__init__.py": "8d36f4ca6cbd9c95d1286a5f7914db91f020133819f8e39eb5aba6c405cc1390",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/acceptance_v2.py": "13623521401d818490fa3834b1b5d06b2be94418b3e87342183718c68362a351",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/bounce_action.py": "2b795d832228aad3b8badb3397fbe1895d668f250f81d27257f27bd395bbbd06",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/boundary_control_metrics.py": "7ab1d0a59d5a0a0eb4569d87975dae49f5b9316ac8f0cca131b0a2eb7d37eebb",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/certified_selection.py": "78918e3d86f289b1a6cdf4971b55f9e51066504ecd17b00db20d4e953a2e00b9",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/clear_coil_field_audit.py": "ceb6584e9137e75b67a67b7a24ae2ab1aea01aa85b8f5748952dfbb2f5f802dd",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/coil_bounce.py": "8c2f599c2e6ca1db373e536ad6e9743a9f8f2d609bab7f55d52922f1fc90b6e2",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/coil_check.py": "9a1638b6addebce9266cbe27c2b8c1f8ac07385209b2d49017aad74b73c5e023",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/coil_fit.py": "a656f0067f13ba9f7570c147f9fa206fd42a7d5d2354fc0d643ce3082b29ad07",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/coil_trajectory.py": "e7401369daa4b68432502c0b1eb18a404e1b357d777d37fc8336a1a88acc9272",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/coupled_coil_audit.py": "3f9a5cee83447bc61d0cd633cdaac13e90a09f2bee42b6c908166d0f42476ba5",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/curvature_bounds.py": "7d7f151b4fac4ccbc2bbfb0b3a6b4e311543796d722313a4af4f6c3358886128",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/documentation.py": "7fcfd5475aface32114e5845ff997edb2926f541f823d566d29185da47116aeb",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/documentation_policy.py": "72de8a9b9321992af6655b19c6bd30c81d50263ba5918c23bb8887a5d6d91dc3",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/filament_field.py": "dde24ee7a76bf9e8f4eb0a7127acc770c7ea6df737ee7bbe3e1e51a162b527d0",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/provenance.py": "9960f5021f8b1d80e5d524df77df986cf889e7db8391e167ecb00776ae7faa29",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/realized_field.py": "d071f01f818e0294686124f9756f564362d2f2dcfdaf9e1ecf3230eaea79e5b0",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/reference_wout.py": "f11823877c64f41f600afa133be087f0ea25dafc757215d7b07f3faae765032f",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/sparse_coil_surface.py": "f440527bce0d13144a1cc077a2e3e9a035f38ae3499b00a954526bfcebf81afe",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/vmec_trace.py": "ce2d456657ff99ba1fb1d85cdf165b2a1597c4034693aed9a21bb13b4854c880",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/wout_build.py": "022317ee6b257a226224315df224d3ddd0c3b633616dffaa3d206a4bbe94e1c4",
+    "<workspace>/worktrees/claude-n45/src/fusion_baselines/wout_target.py": "af4e21610decc8fdfef3d484aaa068d2232d8a6d4983b470f9e46bf514579823"
+  },
+  "step4_pass": false
+}
