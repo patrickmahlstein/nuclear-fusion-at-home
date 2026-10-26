@@ -1,0 +1,14 @@
+{
+  "layout/worktrees/codex-resolution-recovered/results/c18-resolution-launcher/launch_resolution.py": "4c6705abe128c63867cdbd3b71f2834434766878043173b1a625568856c1103b",
+  "layout/worktrees/codex-resolution-recovered/results/c18-recorded-v2/utc_supervisor.py": "70b5d18cb80c07d7ee2d42942c922a681abc1ccef6b0af1efec4053a6b366d3e",
+  "layout/worktrees/codex-resolution-recovered/results/c18-recorded-v2/test_utc_supervisor.py": "0f756cd0d903a17e493cd8108ca70beccb6d34c9fec3336ad00bc271d9a5130c",
+  "layout/coordination/logs/codex/calibration/20261016T061342Z/row-146128-vmec-input.json": "b7b0b8574ad1fa373b5f847052e621857488852de08bf0776dc3f5100847afc7",
+  "layout/coordination/logs/codex/calibration/20261016T061342Z/row-146128-boundary.json": "36035f75ddcabe51261472616d2580e802d98d9ea027a7443f34a0fb00b243d3",
+  "layout/coordination/logs/codex/calibration/20261016T061342Z/row-146128-metrics.json": "3fc595024f189542cf1065571ae4ba239ca44de1285659c3e2ca0a1b36594d81",
+  "layout/coordination/logs/codex/calibration/20261016T061342Z/row-141151-vmec-input.json": "340181fb15b10ff435776fa763f9ff466bb5880a2103a239ac30a62313945e6b",
+  "layout/coordination/logs/codex/calibration/20261016T061342Z/row-141151-boundary.json": "a7ae8a4a216be61eedfeb3e47055ddba13c66db043f24f3a7e03af81a0bd40d7",
+  "layout/coordination/logs/codex/calibration/20261016T061342Z/row-141151-metrics.json": "7f2975aa1cabca7c2bbb9a08a5946d8009a510938451b217900db521dcba1da2",
+  "layout/coordination/logs/codex/calibration/20261016T061342Z/row-116646-vmec-input.json": "568a1bf99c14e3b74510bcae3a9d4d9f0c55acec9e48bb80a0fb7e15b0a12924",
+  "layout/coordination/logs/codex/calibration/20261016T061342Z/row-116646-boundary.json": "e43f76a6c8c7fccad8fdf6266975de157f4dadcf6d2ed08d9e90ba89b2ba70f3",
+  "layout/coordination/logs/codex/calibration/20261016T061342Z/row-116646-metrics.json": "011170397a04f61fd8375ceee3ba6571ad06898283e1998daa2cfb8d7a757720"
+}
