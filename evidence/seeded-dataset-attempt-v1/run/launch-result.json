@@ -1,0 +1,16 @@
+{
+  "completed": false,
+  "physical_admission": false,
+  "manifest_sha256": "985505b9dc0c228d3722e87304222d17116f3bd58c77c0bf01fe0db7b4593702",
+  "execution": {
+    "exit_code": 1,
+    "stop_reason": null,
+    "monotonic_seconds": 316.7473419149901,
+    "utc_elapsed_seconds": 316.74576592445374,
+    "finished_at": "2026-10-26T07:41:02.759610+00:00",
+    "output_bytes": 137860
+  },
+  "error": "Traceback (most recent call last):\n  File \"/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/worktrees/codex-autonomous/results/c18-seeded-local/launch_seeded_constellaration.py\", line 197, in main\n    need(execution[\"exit_code\"] == 0 and execution[\"stop_reason\"] is None,\n    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n         \"native child incomplete; preserve failure without retry\")\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/worktrees/codex-autonomous/results/c18-seeded-local/launch_seeded_constellaration.py\", line 27, in need\n    raise ValueError(message)\nValueError: native child incomplete; preserve failure without retry\n",
+  "monotonic_seconds": 321.0737577539985,
+  "utc_elapsed_seconds": 321.0725476741791
+}

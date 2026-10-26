@@ -1,0 +1,15 @@
+{
+  "peer_sha256": "5b5d707d148da6f0c005ac8fb91311a1c3939b4505719bb9f2b884430f01bad6",
+  "own_sha256": "b7cb44fab6c901f8c52c7c84ac8d9dac80497b38eb402701ad34296e6637fd39",
+  "controller_sha256": "63b1086d98997094768409333d3c0569e0416ec451d8679ed6db40edebff9661",
+  "controller": {
+    "checked_at": "2026-10-26T07:34:46.502966+00:00",
+    "other_codex_exec_worker": false,
+    "controller_lock_held": true,
+    "scope": "Single scheduled Codex worker; peer ownership remains in force.",
+    "native_compute_pids": [],
+    "native_execution_policy": "Only ready public frozen112tasks; current resource coordination and fresh empty inventory required. No repeats."
+  },
+  "inventory_age_seconds": 59.502017,
+  "claim_end": "2026-10-26T08:11:25.332755+00:00"
+}

@@ -1,0 +1,104 @@
+{
+  "files_verified": 549,
+  "protocol_sha256": "df71882af62631557cc4bad55472e7a0a1f0bdb665a7f9c51fb1c602bea7303b",
+  "report_sha256": "7dd49374e5371ef611dd81ab6bd7ed29956bcb8b08422d32131813b55d943d1f",
+  "scalar_diagnostics": [
+    {
+      "metric": "aspect_ratio",
+      "stored": 11.003785904647755,
+      "computed": 11.003785904647813,
+      "absolute_difference": 5.861977570020827e-14,
+      "tolerance": 1.1013785904647754e-05,
+      "within_scalar_tolerance": true
+    },
+    {
+      "metric": "aspect_ratio_over_edge_rotational_transform",
+      "stored": 15.658670976675431,
+      "computed": 15.65867099564044,
+      "absolute_difference": 1.8965009118687703e-08,
+      "tolerance": 1.5668670976675432e-05,
+      "within_scalar_tolerance": true
+    },
+    {
+      "metric": "average_triangularity",
+      "stored": 0.16929737985866847,
+      "computed": 0.16929737985867171,
+      "absolute_difference": 3.247402347028583e-15,
+      "tolerance": 1.7929737985866847e-07,
+      "within_scalar_tolerance": true
+    },
+    {
+      "metric": "axis_magnetic_mirror_ratio",
+      "stored": 0.23295356326824673,
+      "computed": 0.23295356332886674,
+      "absolute_difference": 6.062000901252418e-11,
+      "tolerance": 2.429535632682467e-07,
+      "within_scalar_tolerance": true
+    },
+    {
+      "metric": "axis_rotational_transform_over_n_field_periods",
+      "stored": 0.15584074785921487,
+      "computed": 0.15584074723920358,
+      "absolute_difference": 6.200112923071543e-10,
+      "tolerance": 1.6584074785921486e-07,
+      "within_scalar_tolerance": true
+    },
+    {
+      "metric": "edge_magnetic_mirror_ratio",
+      "stored": 0.40644754617483503,
+      "computed": 0.4064475459667655,
+      "absolute_difference": 2.0806950606910846e-10,
+      "tolerance": 4.16447546174835e-07,
+      "within_scalar_tolerance": true
+    },
+    {
+      "metric": "edge_rotational_transform_over_n_field_periods",
+      "stored": 0.23424265318213747,
+      "computed": 0.2342426528984356,
+      "absolute_difference": 2.8370186755388715e-10,
+      "tolerance": 2.4424265318213745e-07,
+      "within_scalar_tolerance": true
+    },
+    {
+      "metric": "flux_compression_in_regions_of_bad_curvature",
+      "stored": 1.1764961354073389,
+      "computed": 1.176496134725902,
+      "absolute_difference": 6.814369069019222e-10,
+      "tolerance": 1.1864961354073388e-06,
+      "within_scalar_tolerance": true
+    },
+    {
+      "metric": "max_elongation",
+      "stored": 6.775928229902191,
+      "computed": 6.7759282300234425,
+      "absolute_difference": 1.21251453322202e-10,
+      "tolerance": 6.78592822990219e-06,
+      "within_scalar_tolerance": true
+    },
+    {
+      "metric": "minimum_normalized_magnetic_gradient_scale_length",
+      "stored": 4.231157368286894,
+      "computed": 4.231157348465271,
+      "absolute_difference": 1.9821622565530106e-08,
+      "tolerance": 4.241157368286894e-06,
+      "within_scalar_tolerance": true
+    },
+    {
+      "metric": "qi",
+      "stored": 0.08464970881962719,
+      "computed": 0.08464970912135907,
+      "absolute_difference": 3.017318755960119e-10,
+      "tolerance": 9.464970881962719e-08,
+      "within_scalar_tolerance": true
+    },
+    {
+      "metric": "vacuum_well",
+      "stored": -0.18420436505156004,
+      "computed": -0.18420436452859268,
+      "absolute_difference": 5.229673638584842e-10,
+      "tolerance": 1.9420436505156004e-07,
+      "within_scalar_tolerance": true
+    }
+  ],
+  "interpretation": "Arithmetic diagnostics from an invalid incomplete report only. Geometry failed; none qualifies a row or changes the frozen comparison verdict. Other two rows not run. No retry."
+}

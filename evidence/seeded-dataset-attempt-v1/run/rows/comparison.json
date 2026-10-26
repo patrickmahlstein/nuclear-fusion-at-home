@@ -1,0 +1,36 @@
+{
+  "all_agree": false,
+  "rows": [
+    {
+      "global_row": 146128,
+      "status": "invalid",
+      "reason": "workflow failure; see per-row execution record"
+    },
+    {
+      "global_row": 141151,
+      "status": "not-run",
+      "reason": "no report supplied"
+    },
+    {
+      "global_row": 116646,
+      "status": "not-run",
+      "reason": "no report supplied"
+    }
+  ],
+  "physical_admission": false,
+  "interpretation": "A pass is numerical agreement for these rows under this criterion, not historical producer identification or scorer-wide qualification. A mismatch is failed prospective compatibility, not proof of scorer defect or physical infeasibility. Historical producer source/environment/fidelity remain unknown.",
+  "completed": false,
+  "protocol_sha256": "df71882af62631557cc4bad55472e7a0a1f0bdb665a7f9c51fb1c602bea7303b",
+  "report_sha256": {
+    "146128": "7dd49374e5371ef611dd81ab6bd7ed29956bcb8b08422d32131813b55d943d1f"
+  },
+  "execution": [
+    {
+      "global_row": 146128,
+      "completed": false,
+      "scorer_started": true,
+      "exit_code": 1,
+      "error": "Traceback (most recent call last):\n  File \"/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/worktrees/codex-autonomous/scripts/run_seeded_constellaration.py\", line 64, in run_rows\n    require(type(record[\"exit_code\"]) is int and record[\"exit_code\"] == 0,\n  File \"/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/worktrees/codex-autonomous/scripts/compare_seeded_constellaration.py\", line 14, in require\n    raise ValueError(message)\nValueError: scorer failed\n"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "global_row": 146128,
+  "completed": false,
+  "scorer_started": true,
+  "exit_code": 1,
+  "error": "Traceback (most recent call last):\n  File \"/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/worktrees/codex-autonomous/scripts/run_seeded_constellaration.py\", line 64, in run_rows\n    require(type(record[\"exit_code\"]) is int and record[\"exit_code\"] == 0,\n  File \"/Users/patrickkoch/projects/nuclear-fusion-at-home-workforce-alignment/worktrees/codex-autonomous/scripts/compare_seeded_constellaration.py\", line 14, in require\n    raise ValueError(message)\nValueError: scorer failed\n"
+}
