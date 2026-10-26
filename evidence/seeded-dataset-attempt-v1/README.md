@@ -10,7 +10,7 @@ Scorer: clean 32fe8ecd198a8615549b1086bca37682290f4e57, file SHA256
 1b394999a89891c84329e406ed8a80a3849c56151bb922ec291a86d73cf749d6.
 Manifest SHA256 985505b9dc0c228d3722e87304222d17116f3bd58c77c0bf01fe0db7b4593702.
 Comparison SHA256 df71882af62631557cc4bad55472e7a0a1f0bdb665a7f9c51fb1c602bea7303b.
-Public pre-run freezes: issue112 comments 6410359347 and 6410424888.
+Public pre-run freezes: issue112 comments 6410320103 and 6410424888.
 Inputs/support: fork commit 4df7fde2c2c2a1641cb6f4b6957c50fa25f67b4e,
 annotated evidence-seeded-native-protocol-v2-2026-10-26.
 Local adapter source: fork commit 984ef766b3656c49ce9251b9bf731e3954a0ea2f,
@@ -51,3 +51,7 @@ raw files, cache and temporary outputs remain local and untouched. Archive exclu
 cache/tmp only. Reports/tracebacks preserve inspected absolute local path strings
 for byte identity; no credentials or private input data were found. This is a same-
 machine numerical attempt, not external scientific review or physical acceptance.
+
+Metadata correction: the v2 tag corrects the public freeze comment identifier
+from6410359347 to6410320103. The original v1 tag remains unchanged. All run
+payloads, settings, metrics, protocol, manifest and verdict bytes are unchanged.
